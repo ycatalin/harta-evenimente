@@ -1,6 +1,6 @@
 {
  "meta": {
-  "ultimulRaport": "2026-11-09T08:19",
+  "ultimulRaport": "2026-11-09T20:18",
   "rapoarte": [
    {
     "regiune": "România",
@@ -29,6 +29,13 @@
     "fisier": "2026-11-09_0817.txt",
     "noi": 21,
     "actualizari": 4
+   },
+   {
+    "regiune": "Iran",
+    "ora": "2026-11-09T20:18",
+    "fisier": "2026-11-09_2018.txt",
+    "noi": 19,
+    "actualizari": 3
    }
   ],
   "nota": "Evenimente extrase automat din rapoartele de 12 ore; etichetele sunt verificate editorial periodic."
@@ -855,6 +862,564 @@
    "tabara": "Occidental",
    "orientare": "",
    "url": "https://t.me/ukraine_watch/70446"
+  },
+  "s3a6994e613": {
+   "nume": "Fotros Resistance",
+   "tabara": "Pro-iranian",
+   "orientare": "",
+   "url": "https://t.me/FotrosResistancee/24565"
+  },
+  "s92c3da426a": {
+   "nume": "🇮🇷🤝🇷🇺 Сильный Иран",
+   "tabara": "Pro-iranian",
+   "orientare": "",
+   "url": "https://t.me/The_beauties_of_Iranii/18781"
+  },
+  "s0ee834faf7": {
+   "nume": "OSINT",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/OSINTLive/590656"
+  },
+  "sd16f19b35d": {
+   "nume": "OSINT",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/OSINTLive/590658"
+  },
+  "s41d62b6c14": {
+   "nume": "Geopolitics Watch",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/GeoPWatch/41501"
+  },
+  "sfd396ab962": {
+   "nume": "Intel Slava",
+   "tabara": "Rus critic (estimat)",
+   "orientare": "",
+   "url": "https://t.me/intelslava/97825"
+  },
+  "sf21ea9ed3f": {
+   "nume": "/CIG/ Telegram | Counter Intelligence Global",
+   "tabara": "Occidental",
+   "orientare": "",
+   "url": "https://t.me/CIG_telegram/86967"
+  },
+  "s0c05911fd5": {
+   "nume": "Tabz - Live News",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/tabzlive/110451"
+  },
+  "s3a7ee9639b": {
+   "nume": "Middle East Observer",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/me_observer_TG/1129001"
+  },
+  "s15d562018c": {
+   "nume": "Alsaa - Live News",
+   "tabara": "Arab (estimat)",
+   "orientare": "",
+   "url": "https://t.me/Alsaa_plus_EN/34813"
+  },
+  "sde776b298c": {
+   "nume": "Middle East Observer",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/me_observer_TG/1128896"
+  },
+  "see4f79a15f": {
+   "nume": "Раньше всех. Ну почти.",
+   "tabara": "Rus critic",
+   "orientare": "",
+   "url": "https://t.me/bbbreaking/241886"
+  },
+  "sbc220f63a2": {
+   "nume": "OSINT",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/OSINTLive/590579"
+  },
+  "s105622b568": {
+   "nume": "Alsaa - Live News",
+   "tabara": "Arab (estimat)",
+   "orientare": "",
+   "url": "https://t.me/Alsaa_plus_EN/34815"
+  },
+  "sa161f16384": {
+   "nume": "Middle East Observer",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/me_observer_TG/1128980"
+  },
+  "sf583973b03": {
+   "nume": "ParsToday Russian 🇮🇷",
+   "tabara": "Iranian oficial",
+   "orientare": "",
+   "url": "https://t.me/parstodayrussian/217090"
+  },
+  "s66647fb429": {
+   "nume": "Tabz - Live News",
+   "tabara": "Turc",
+   "orientare": "",
+   "url": "https://t.me/tabzlive/110436"
+  },
+  "s9c1cafc9f9": {
+   "nume": "The War Reporter",
+   "tabara": "Turc",
+   "orientare": "",
+   "url": "https://t.me/thewarreporter/22726"
+  },
+  "s4561fda219": {
+   "nume": "The War Reporter",
+   "tabara": "Turc",
+   "orientare": "",
+   "url": "https://t.me/thewarreporter/22727"
+  },
+  "sf7ea8878e9": {
+   "nume": "ParsToday Russian 🇮🇷",
+   "tabara": "Iranian oficial",
+   "orientare": "",
+   "url": "https://t.me/parstodayrussian/217078"
+  },
+  "se2dfa4c95b": {
+   "nume": "The War Reporter",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/thewarreporter/22728"
+  },
+  "sb2718ae70e": {
+   "nume": "OSINT",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/OSINTLive/590627"
+  },
+  "se3b2484da2": {
+   "nume": "Al Mayadeen English",
+   "tabara": "Pro-iranian",
+   "orientare": "",
+   "url": "https://t.me/almayadeenenglish/26775"
+  },
+  "s4a177880b6": {
+   "nume": "Abu Ali Express in English",
+   "tabara": "Pro-iranian",
+   "orientare": "",
+   "url": "https://t.me/englishabuali/81699"
+  },
+  "sa3718f770d": {
+   "nume": "OSINT",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/OSINTLive/590660"
+  },
+  "s867a2687f8": {
+   "nume": "Geopolitics Prime",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/geopolitics_prime/77543"
+  },
+  "s615059f54b": {
+   "nume": "OSINT",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/OSINTLive/590661"
+  },
+  "s143b4f432d": {
+   "nume": "Middle East Observer",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/me_observer_TG/1128993"
+  },
+  "s45618e857d": {
+   "nume": "Geopolitics Watch",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/GeoPWatch/41503"
+  },
+  "s37f49ddb29": {
+   "nume": "Alsaa - Live News",
+   "tabara": "Arab (estimat)",
+   "orientare": "",
+   "url": "https://t.me/Alsaa_plus_EN/34830"
+  },
+  "s5e77979c49": {
+   "nume": "The War Reporter",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/thewarreporter/22732"
+  },
+  "sbd291857b0": {
+   "nume": "IRNA News Agency 🇮🇷",
+   "tabara": "Iranian oficial",
+   "orientare": "",
+   "url": "https://t.me/Irna_en/41982"
+  },
+  "sb7f14764c7": {
+   "nume": "Middle East Observer",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/me_observer_TG/1128998"
+  },
+  "s59febf8a34": {
+   "nume": "Middle East Observer",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/me_observer_TG/1128976"
+  },
+  "sdadf8c6884": {
+   "nume": "MaxOsint Intel",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/MaxOsintIntel/26263"
+  },
+  "sc2e4744481": {
+   "nume": "Press TV",
+   "tabara": "Iranian oficial",
+   "orientare": "",
+   "url": "https://t.me/presstv/214032"
+  },
+  "sd23e1bb334": {
+   "nume": "Clash Report",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/ClashReport/105265"
+  },
+  "sc7904242ee": {
+   "nume": "Middle East Observer",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/me_observer_TG/1128978"
+  },
+  "s55326efb5f": {
+   "nume": "Al Mayadeen English",
+   "tabara": "Pro-iranian",
+   "orientare": "",
+   "url": "https://t.me/almayadeenenglish/26776"
+  },
+  "sefcbbf9dc4": {
+   "nume": "Middle East Observer",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/me_observer_TG/1128989"
+  },
+  "sc67a0b0e3a": {
+   "nume": "Clash Report",
+   "tabara": "Occidental",
+   "orientare": "",
+   "url": "https://t.me/ClashReport/105275"
+  },
+  "s0d58b121ae": {
+   "nume": "Clash Report",
+   "tabara": "Occidental",
+   "orientare": "",
+   "url": "https://t.me/ClashReport/105276"
+  },
+  "s4e9f3f5196": {
+   "nume": "OSINT",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/OSINTLive/590662"
+  },
+  "s09634e56c1": {
+   "nume": "Middle East Observer",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/me_observer_TG/1128999"
+  },
+  "sfe981a6acf": {
+   "nume": "The Cradle",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/thecradlemedia/70750"
+  },
+  "s34783b642b": {
+   "nume": "MaxOsint Intel",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/MaxOsintIntel/26262"
+  },
+  "s7e7edc1aa7": {
+   "nume": "OSINT",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/OSINTLive/590650"
+  },
+  "s75efc5b818": {
+   "nume": "WarCabinet",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/warcabinet/26059"
+  },
+  "sa1a7ac810d": {
+   "nume": "OSINT",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/OSINTLive/590621"
+  },
+  "s1543f886ae": {
+   "nume": "ParsToday Russian 🇮🇷",
+   "tabara": "Iranian oficial",
+   "orientare": "",
+   "url": "https://t.me/parstodayrussian/217079"
+  },
+  "s1005bcf884": {
+   "nume": "Geopolitics Prime",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/geopolitics_prime/77541"
+  },
+  "s898c1f347d": {
+   "nume": "Geopolitics Watch",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/GeoPWatch/41505"
+  },
+  "s73f316ddcb": {
+   "nume": "Tabz - Live News",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/tabzlive/110453"
+  },
+  "sec88a3b484": {
+   "nume": "/CIG/ Telegram | Counter Intelligence Global",
+   "tabara": "Occidental",
+   "orientare": "",
+   "url": "https://t.me/CIG_telegram/86957"
+  },
+  "sad8ebf9d1e": {
+   "nume": "Middle East Observer",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/me_observer_TG/1128909"
+  },
+  "s4610bd614a": {
+   "nume": "Geopolitics Watch",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/GeoPWatch/41498"
+  },
+  "sa9c3e57313": {
+   "nume": "Fotros Resistance",
+   "tabara": "Pro-iranian",
+   "orientare": "",
+   "url": "https://t.me/FotrosResistancee/24567"
+  },
+  "sab3d09fea6": {
+   "nume": "Middle East Spectator — MES",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/Middle_East_Spectator/38055"
+  },
+  "sb6b56bf126": {
+   "nume": "The Cradle",
+   "tabara": "Occidental",
+   "orientare": "",
+   "url": "https://t.me/thecradlemedia/70743"
+  },
+  "sa5cbbc1614": {
+   "nume": "Tabz - Live News",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/tabzlive/110446"
+  },
+  "s91a529c1e7": {
+   "nume": "Insider Paper",
+   "tabara": "Occidental",
+   "orientare": "",
+   "url": "https://t.me/insiderpaper/45793"
+  },
+  "sc01e1a3745": {
+   "nume": "Abu Ali Express in English",
+   "tabara": "Pro-iranian (estimat)",
+   "orientare": "",
+   "url": "https://t.me/englishabuali/81698"
+  },
+  "s9d74de756d": {
+   "nume": "Tabz - Live News",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/tabzlive/110448"
+  },
+  "s2046f23876": {
+   "nume": "The War Reporter",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/thewarreporter/22729"
+  },
+  "s72a9a574ba": {
+   "nume": "Deutsche Welle",
+   "tabara": "Occidental",
+   "orientare": "",
+   "url": "https://t.me/deutschewelleEN/54748"
+  },
+  "s91c58eb5b8": {
+   "nume": "MaxOsint Intel",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/MaxOsintIntel/26266"
+  },
+  "s2c354182e9": {
+   "nume": "BBC News | Русская служба",
+   "tabara": "Occidental",
+   "orientare": "",
+   "url": "https://t.me/bbcrussian/101232"
+  },
+  "sac3560adbb": {
+   "nume": "The Insider",
+   "tabara": "Occidental",
+   "orientare": "",
+   "url": "https://t.me/theinsider/53742"
+  },
+  "sb94f2255ba": {
+   "nume": "Bellum Acta - Intel, Urgent News and Archives ✝️ #FreeVenezuela",
+   "tabara": "Occidental",
+   "orientare": "",
+   "url": "https://t.me/BellumActaNews/178377"
+  },
+  "sd3427cc9b3": {
+   "nume": "BRICS News",
+   "tabara": "Internațional (estimat)",
+   "orientare": "",
+   "url": "https://t.me/c/2006131201/19520"
+  },
+  "sf69a37aa18": {
+   "nume": "Stay Free",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/stayfreeworld/71642"
+  },
+  "s02341f34f8": {
+   "nume": "Middle East Observer",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/me_observer_TG/1128966"
+  },
+  "s5dd06f16e3": {
+   "nume": "War Monitor",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/warmonitors/46593"
+  },
+  "sa2fa74db22": {
+   "nume": "The Cradle",
+   "tabara": "Occidental",
+   "orientare": "",
+   "url": "https://t.me/thecradlemedia/70744"
+  },
+  "s02d69ce079": {
+   "nume": "OSINT",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/OSINTLive/590638"
+  },
+  "s10e3344985": {
+   "nume": "Tabz - Live News",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/tabzlive/110447"
+  },
+  "s048ac4f6e9": {
+   "nume": "Insider Paper",
+   "tabara": "Occidental",
+   "orientare": "",
+   "url": "https://t.me/insiderpaper/45794"
+  },
+  "s8c03b0f796": {
+   "nume": "OSINT",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/OSINTLive/590648"
+  },
+  "s24cd7c0331": {
+   "nume": "BRICS News",
+   "tabara": "Internațional (estimat)",
+   "orientare": "",
+   "url": "https://t.me/c/2006131201/19522"
+  },
+  "s271af571b0": {
+   "nume": "Alsaa - Live News",
+   "tabara": "Arab (estimat)",
+   "orientare": "",
+   "url": "https://t.me/Alsaa_plus_EN/34829"
+  },
+  "sfaa14ead7f": {
+   "nume": "MaxOsint Intel",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/MaxOsintIntel/26268"
+  },
+  "s3adb901c45": {
+   "nume": "/CIG/ Telegram | Counter Intelligence Global",
+   "tabara": "Occidental",
+   "orientare": "",
+   "url": "https://t.me/CIG_telegram/86969"
+  },
+  "s1bd0d66154": {
+   "nume": "Fotros Resistance",
+   "tabara": "Pro-iranian",
+   "orientare": "",
+   "url": "https://t.me/FotrosResistancee/24568"
+  },
+  "s0fba30ee32": {
+   "nume": "Middle East Observer",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/me_observer_TG/1128967"
+  },
+  "sde7f264a85": {
+   "nume": "MaxOsint Intel",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/MaxOsintIntel/26261"
+  },
+  "sa55f6a4f8a": {
+   "nume": "The Cradle",
+   "tabara": "Occidental",
+   "orientare": "",
+   "url": "https://t.me/thecradlemedia/70749"
+  },
+  "s55fbc71b6f": {
+   "nume": "Хезболла | Ливан 🇱🇧",
+   "tabara": "Pro-iranian",
+   "orientare": "",
+   "url": "https://t.me/hizbullahru/37484"
+  },
+  "s3c3e1f623d": {
+   "nume": "Intel Slava",
+   "tabara": "Rus critic (estimat)",
+   "orientare": "",
+   "url": "https://t.me/intelslava/97822"
+  },
+  "s935126999e": {
+   "nume": "Middle East Observer",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/me_observer_TG/1128954"
+  },
+  "s4cd41316aa": {
+   "nume": "Middle East Observer",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/me_observer_TG/1128905"
+  },
+  "sdfcaf639fb": {
+   "nume": "Geopolitics Prime",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/geopolitics_prime/77542"
+  },
+  "s63185f9307": {
+   "nume": "ЕЖ",
+   "tabara": "Rus critic",
+   "orientare": "",
+   "url": "https://t.me/ejdailyru/428253"
+  },
+  "s81cddf8a3a": {
+   "nume": "Middle East Observer",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/me_observer_TG/1128977"
   }
  },
  "evenimente": [
@@ -1518,7 +2083,14 @@
     "s1596dda4ae",
     "se17655b365",
     "sce044f2d99",
-    "s5b0133d3eb"
+    "s5b0133d3eb",
+    "sa1a7ac810d",
+    "s1543f886ae",
+    "sfe981a6acf",
+    "s34783b642b",
+    "s3a6994e613",
+    "s0ee834faf7",
+    "s3a7ee9639b"
    ],
    "loc": {
     "tip": "punct",
@@ -1534,6 +2106,11 @@
     {
      "raport": "2026-11-09T08:17",
      "nota": "Blinken a recunoscut că Iranul poate amenința orice navă cu o singură lovitură și că asigurările maritime vor crește imediat; rapoarte indică că pentru fiecare tancher lovit aproximativ patru reușesc să treacă.",
+     "schimbari": []
+    },
+    {
+     "raport": "2026-11-09T20:18",
+     "nota": "IRGC a anunțat distrugerea sistemelor de navigație de pe stâncile sudice ale Strâmtorii și a lovit insula Didamar din Oman; UKMTO a reclasificat incidentul de lângă Khasab ca atac direct cu evacuarea echipajului.",
      "schimbari": []
     }
    ],
@@ -2309,13 +2886,17 @@
    "afecteazaDirect": false,
    "riscEscaladare": true,
    "veridicitate": "probabil",
-   "stare": "nou",
+   "stare": "în desfășurare",
    "surse": [
     "saee83d97de",
     "s2fed0d3a50",
     "s16f7064713",
     "sb0d9950bc6",
-    "sd7e31c1d63"
+    "sd7e31c1d63",
+    "s15d562018c",
+    "see4f79a15f",
+    "sa161f16384",
+    "sf583973b03"
    ],
    "loc": {
     "tip": "punct",
@@ -2327,7 +2908,15 @@
     "precizie": "aproximativ"
    },
    "raport": "2026-11-09T08:17",
-   "istoric": [],
+   "istoric": [
+    {
+     "raport": "2026-11-09T20:18",
+     "nota": "Al-Zaidi a condus ulterior o delegație secretă la Teheran ca mediator Trump, întâlnindu-se cu Pezeshkian și Ghalibaf; vizita nu a produs rezultate concrete.",
+     "schimbari": [
+      "stare: nou → în desfășurare"
+     ]
+    }
+   ],
    "zona": "Z1",
    "ajustare": 1,
    "criticitate": 5
@@ -2346,14 +2935,18 @@
    "impact": 4,
    "afecteazaDirect": false,
    "riscEscaladare": true,
-   "veridicitate": "neconfirmat",
-   "stare": "de urmărit",
+   "veridicitate": "confirmat",
+   "stare": "încheiat",
    "surse": [
     "s2fed0d3a50",
     "s16f7064713",
     "s176e4e7761",
     "sf809970788",
-    "s0df21fd36f"
+    "s0df21fd36f",
+    "sde776b298c",
+    "s105622b568",
+    "sa161f16384",
+    "sf583973b03"
    ],
    "loc": {
     "tip": "punct",
@@ -2365,7 +2958,16 @@
     "precizie": "aproximativ"
    },
    "raport": "2026-11-09T08:17",
-   "istoric": [],
+   "istoric": [
+    {
+     "raport": "2026-11-09T20:18",
+     "nota": "Al-Zaidi a condus o delegație secretă la Teheran, întâlnindu-se cu Pezeshkian și Ghalibaf ca mediator al propunerilor Trump; vizita nu a produs rezultate acceptabile pentru Washington, potrivit surselor iraniene.",
+     "schimbari": [
+      "stare: de urmărit → încheiat",
+      "verificare: neconfirmat → confirmat"
+     ]
+    }
+   ],
    "zona": "Z1",
    "ajustare": 1,
    "criticitate": 5
@@ -2691,6 +3293,719 @@
    "zona": "Z2",
    "ajustare": 0,
    "criticitate": 3
+  },
+  {
+   "id": "ir-20261109-irgc-loveste-insula-didamar-di",
+   "regiune": "Iran",
+   "fir": "Strâmtoarea Hormuz: Escaladare tactică",
+   "data": "2026-11-09",
+   "titlu": "IRGC lovește insula Didamar din Oman, infrastructură radar SUA",
+   "rezumat": "IRGC a lovit insula Didamar din Oman, distrugând sisteme de radar și comunicații folosite de Marina SUA pentru escortarea navelor prin coridorul sudic al Strâmtorii Hormuz, potrivit surselor OSINT și pro-iraniene. Imagini cu fum ridicându-se de pe insulă au fost confirmate de surse multiple. Oman nu a comentat oficial, iar IRGC nu a revendicat explicit atacul.",
+   "domenii": [
+    "militar",
+    "politic"
+   ],
+   "impact": 5,
+   "afecteazaDirect": true,
+   "riscEscaladare": true,
+   "veridicitate": "probabil",
+   "stare": "nou",
+   "surse": [
+    "s3a6994e613",
+    "s92c3da426a",
+    "s0ee834faf7",
+    "sd16f19b35d",
+    "s41d62b6c14",
+    "sfd396ab962",
+    "sf21ea9ed3f",
+    "s0c05911fd5",
+    "s3a7ee9639b"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Insula Didamar, Oman",
+    "coord": [
+     56.37,
+     26.18
+    ],
+    "precizie": "aproximativ"
+   },
+   "raport": "2026-11-09T20:18",
+   "istoric": [],
+   "zona": "Z1",
+   "ajustare": 1,
+   "criticitate": 5
+  },
+  {
+   "id": "ir-20261109-al-zaidi-conduce-delegatie-sec",
+   "regiune": "Iran",
+   "fir": "Iran – SUA: Negocieri și ultimatum",
+   "data": "2026-11-09",
+   "titlu": "Al-Zaidi conduce delegație secretă la Teheran ca mediator Trump",
+   "rezumat": "Premierul irakian Ali al-Zaidi a condus o delegație secretă la Teheran, însoțit de Faleh al-Fayyadh și Hadi al-Amiri, întâlnindu-se cu Pezeshkian și Ghalibaf, potrivit surselor irakiene, iraniene și Al Hadath. Trump îl rugase pe al-Zaidi să transmită propuneri de încetare a războiului. Potrivit surselor iraniene, vizita nu a produs rezultate acceptabile pentru Washington.",
+   "domenii": [
+    "politic"
+   ],
+   "impact": 4,
+   "afecteazaDirect": true,
+   "riscEscaladare": false,
+   "veridicitate": "confirmat",
+   "stare": "încheiat",
+   "surse": [
+    "s15d562018c",
+    "sde776b298c",
+    "see4f79a15f",
+    "sbc220f63a2",
+    "s105622b568",
+    "sa161f16384",
+    "sf583973b03"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Teheran",
+    "coord": [
+     51.39,
+     35.69
+    ],
+    "precizie": "exact"
+   },
+   "raport": "2026-11-09T20:18",
+   "istoric": [],
+   "zona": "Z0",
+   "ajustare": 1,
+   "criticitate": 5
+  },
+  {
+   "id": "ir-20261109-iran-neaga-categoric-intalnire",
+   "regiune": "Iran",
+   "fir": "Iran – SUA: Negocieri și ultimatum",
+   "data": "2026-11-09",
+   "titlu": "Iran neagă categoric întâlnirea Vance–Rezaei la Doha",
+   "rezumat": "Tasnim News și un oficial iranian de rang înalt au negat categoric orice întâlnire între Vance și Rezaei, reiterând că Iranul nu negociază până la măsuri concrete americane, potrivit surselor iraniene oficiale. Anterior, șeful MIT turc Ibrahim Kalın anunțase că întâlnirea urmează să aibă loc săptămâna viitoare la Doha. Negarea vine din surse oficiale multiple și este evaluată ca credibilă.",
+   "domenii": [
+    "politic",
+    "info"
+   ],
+   "impact": 3,
+   "afecteazaDirect": true,
+   "riscEscaladare": false,
+   "veridicitate": "confirmat",
+   "stare": "de urmărit",
+   "surse": [
+    "s66647fb429",
+    "s9c1cafc9f9",
+    "s4561fda219",
+    "sf7ea8878e9",
+    "se2dfa4c95b",
+    "sb2718ae70e",
+    "se3b2484da2",
+    "s4a177880b6",
+    "sa3718f770d",
+    "s867a2687f8"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Teheran (negare oficială; anunț inițial Ankara)",
+    "coord": [
+     51.39,
+     35.69
+    ],
+    "precizie": "exact"
+   },
+   "raport": "2026-11-09T20:18",
+   "istoric": [],
+   "zona": "Z0",
+   "ajustare": 1,
+   "criticitate": 4
+  },
+  {
+   "id": "ir-20261109-trump-se-intalneste-cu-premier",
+   "regiune": "Iran",
+   "fir": "Iran – SUA: Negocieri și ultimatum",
+   "data": "2026-11-09",
+   "titlu": "Trump se întâlnește cu premierul Qatarului la Casa Albă",
+   "rezumat": "Trump s-a întâlnit cu premierul Qatarului Mohammed bin Abdulrahman Al Thani la Casa Albă, fără presă, potrivit surselor OSINT și The War Reporter. Doha rămâne singurul canal diplomatic funcțional în contextul blocajului negocierilor Iran–SUA.",
+   "domenii": [
+    "politic"
+   ],
+   "impact": 3,
+   "afecteazaDirect": true,
+   "riscEscaladare": false,
+   "veridicitate": "confirmat",
+   "stare": "încheiat",
+   "surse": [
+    "s615059f54b",
+    "s143b4f432d",
+    "s45618e857d",
+    "s37f49ddb29",
+    "s5e77979c49"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Washington D.C.",
+    "coord": [
+     -77.04,
+     38.91
+    ],
+    "precizie": "exact",
+    "inAfaraHartii": true
+   },
+   "raport": "2026-11-09T20:18",
+   "istoric": [],
+   "zona": "Z2",
+   "ajustare": 0,
+   "criticitate": 3
+  },
+  {
+   "id": "ir-20261109-baghaei-transferul-de-uraniu-i",
+   "regiune": "Iran",
+   "fir": "Iran – SUA: Negocieri și ultimatum",
+   "data": "2026-11-09",
+   "titlu": "Baghaei: transferul de uraniu îmbogățit exclus, termen redus la două zile",
+   "rezumat": "Purtătorul de cuvânt iranian Baghaei a confirmat că transferul de uraniu îmbogățit este exclus din orice negociere și că termenul propunerii iraniene a fost redus de la șapte la două zile, potrivit IRNA. Declarația reiterează pozițiile nenegociabile ale Teheranului în contextul impasului diplomatic.",
+   "domenii": [
+    "politic"
+   ],
+   "impact": 3,
+   "afecteazaDirect": true,
+   "riscEscaladare": false,
+   "veridicitate": "confirmat",
+   "stare": "în desfășurare",
+   "surse": [
+    "sbd291857b0",
+    "sb7f14764c7"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Teheran",
+    "coord": [
+     51.39,
+     35.69
+    ],
+    "precizie": "exact"
+   },
+   "raport": "2026-11-09T20:18",
+   "istoric": [],
+   "zona": "Z0",
+   "ajustare": 1,
+   "criticitate": 4
+  },
+  {
+   "id": "ir-20261109-ghalibaf-avertizeaza-ca-israel",
+   "regiune": "Iran",
+   "fir": "Iran – SUA: Negocieri și ultimatum",
+   "data": "2026-11-09",
+   "titlu": "Ghalibaf avertizează că Israelul trage SUA într-un „război fără sfârșit\"",
+   "rezumat": "Președintele Parlamentului iranian Ghalibaf a avertizat că Israelul încearcă să tragă SUA într-un „război fără sfârșit\" cu Iranul, potrivit Middle East Observer și Al Mayadeen. Declarația a fost făcută în contextul vizitei delegației irakiene la Teheran.",
+   "domenii": [
+    "politic",
+    "info"
+   ],
+   "impact": 2,
+   "afecteazaDirect": true,
+   "riscEscaladare": false,
+   "veridicitate": "confirmat",
+   "stare": "nou",
+   "surse": [
+    "s59febf8a34",
+    "sdadf8c6884",
+    "sc2e4744481",
+    "sd23e1bb334",
+    "sc7904242ee",
+    "s55326efb5f",
+    "sefcbbf9dc4"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Teheran",
+    "coord": [
+     51.39,
+     35.69
+    ],
+    "precizie": "exact"
+   },
+   "raport": "2026-11-09T20:18",
+   "istoric": [],
+   "zona": "Z0",
+   "ajustare": 1,
+   "criticitate": 3
+  },
+  {
+   "id": "ir-20261109-hegseth-sua-nu-pot-permite-ira",
+   "regiune": "Iran",
+   "fir": "Iran – SUA: Negocieri și ultimatum",
+   "data": "2026-11-09",
+   "titlu": "Hegseth: SUA nu pot permite Iranului să obțină bomba nucleară",
+   "rezumat": "Secretarul Apărării american Hegseth a declarat la Fox News că nu se poate permite Iranului să obțină bomba nucleară, potrivit surselor OSINT și Clash Report. Declarația vine în contextul blocajului negocierilor și al escaladării militare din Strâmtoarea Hormuz.",
+   "domenii": [
+    "politic",
+    "militar"
+   ],
+   "impact": 2,
+   "afecteazaDirect": true,
+   "riscEscaladare": false,
+   "veridicitate": "confirmat",
+   "stare": "nou",
+   "surse": [
+    "sc67a0b0e3a",
+    "s0d58b121ae",
+    "s4e9f3f5196",
+    "s09634e56c1"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Washington D.C.",
+    "coord": [
+     -77.04,
+     38.91
+    ],
+    "precizie": "exact",
+    "inAfaraHartii": true
+   },
+   "raport": "2026-11-09T20:18",
+   "istoric": [],
+   "zona": "Z2",
+   "ajustare": 0,
+   "criticitate": 2
+  },
+  {
+   "id": "ir-20261109-ukmto-reclasifica-incident-kha",
+   "regiune": "Iran",
+   "fir": "Strâmtoarea Hormuz: Escaladare tactică",
+   "data": "2026-11-09",
+   "titlu": "UKMTO reclasifică incident Khasab ca atac direct asupra petrolierului",
+   "rezumat": "UKMTO a reclasificat un incident de lângă Khasab, Oman (8 mile nautice nord-vest), ca atac direct asupra unui petrolier, cu evacuarea echipajului, potrivit The Cradle, MaxOsint Intel și WarCabinet. Incidentul se înscrie în seria atacurilor IRGC asupra navelor din coridorul sudic al Strâmtorii Hormuz.",
+   "domenii": [
+    "militar",
+    "economic"
+   ],
+   "impact": 4,
+   "afecteazaDirect": true,
+   "riscEscaladare": false,
+   "veridicitate": "confirmat",
+   "stare": "nou",
+   "surse": [
+    "sfe981a6acf",
+    "s34783b642b",
+    "s7e7edc1aa7",
+    "s75efc5b818"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Khasab, Oman (8 mile nautice nord-vest)",
+    "coord": [
+     56.24,
+     26.2
+    ],
+    "precizie": "aproximativ"
+   },
+   "raport": "2026-11-09T20:18",
+   "istoric": [],
+   "zona": "Z1",
+   "ajustare": 0,
+   "criticitate": 4
+  },
+  {
+   "id": "ir-20261109-irgc-anunta-distrugerea-sistem",
+   "regiune": "Iran",
+   "fir": "Strâmtoarea Hormuz: Escaladare tactică",
+   "data": "2026-11-09",
+   "titlu": "IRGC anunță distrugerea sistemelor de navigație de pe stâncile sudice ale Strâmtorii",
+   "rezumat": "IRGC a anunțat că a distrus sistemele de navigație de pe stâncile sudice ale Strâmtorii Hormuz și că nicio navă neconformă nu a mai putut intra în coridorul sudic, potrivit ParsToday și Geopolitics Prime. Au fost raportate explozii în Strâmtoare de surse OSINT.",
+   "domenii": [
+    "militar"
+   ],
+   "impact": 4,
+   "afecteazaDirect": true,
+   "riscEscaladare": false,
+   "veridicitate": "probabil",
+   "stare": "în desfășurare",
+   "surse": [
+    "sa1a7ac810d",
+    "s1543f886ae",
+    "s1005bcf884",
+    "s898c1f347d",
+    "s73f316ddcb"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Strâmtoarea Hormuz, coridorul sudic",
+    "coord": [
+     56.5,
+     26.4
+    ],
+    "precizie": "aproximativ"
+   },
+   "raport": "2026-11-09T20:18",
+   "istoric": [],
+   "zona": "Z1",
+   "ajustare": 0,
+   "criticitate": 4
+  },
+  {
+   "id": "ir-20261109-pretul-petrolului-scade-sub-10",
+   "regiune": "Iran",
+   "fir": "Strâmtoarea Hormuz: Escaladare tactică",
+   "data": "2026-11-09",
+   "titlu": "Prețul petrolului scade sub 100 dolari pe baril în contextul speranțelor diplomatice",
+   "rezumat": "Prețul petrolului Brent a scăzut la 94,93 dolari pe baril (-3,5%), potrivit CIG și Middle East Observer. Analiștii notează că scăderea reflectă speranța unui acord diplomatic, nu realitatea militară din Strâmtoarea Hormuz.",
+   "domenii": [
+    "economic",
+    "energie"
+   ],
+   "impact": 3,
+   "afecteazaDirect": false,
+   "riscEscaladare": false,
+   "veridicitate": "confirmat",
+   "stare": "de urmărit",
+   "surse": [
+    "sec88a3b484",
+    "sad8ebf9d1e"
+   ],
+   "loc": null,
+   "raport": "2026-11-09T20:18",
+   "istoric": [],
+   "zona": null,
+   "ajustare": 0,
+   "criticitate": 3
+  },
+  {
+   "id": "ir-20261109-irgc-efectueaza-lansari-de-rac",
+   "regiune": "Iran",
+   "fir": "Iran – SUA: Negocieri și ultimatum",
+   "data": "2026-11-09",
+   "titlu": "IRGC efectuează lansări de rachete balistice din Khuzestan",
+   "rezumat": "IRGC a efectuat lansări de rachete balistice și/sau croazieră din provincia Khuzestan, potrivit Geopolitics Watch și Fotros Resistance. Informația provine dintr-o singură sursă și nu a fost confirmată independent.",
+   "domenii": [
+    "militar"
+   ],
+   "impact": 3,
+   "afecteazaDirect": true,
+   "riscEscaladare": false,
+   "veridicitate": "neconfirmat",
+   "stare": "de urmărit",
+   "surse": [
+    "s4610bd614a",
+    "sa9c3e57313",
+    "sab3d09fea6"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Khuzestan, Iran",
+    "coord": [
+     48.67,
+     31.32
+    ],
+    "precizie": "aproximativ"
+   },
+   "raport": "2026-11-09T20:18",
+   "istoric": [],
+   "zona": "Z0",
+   "ajustare": 1,
+   "criticitate": 4
+  },
+  {
+   "id": "ir-20261011-franta-acuza-oficial-irgc-de-a",
+   "regiune": "Iran",
+   "fir": "Franța – Iran: Atacuri cibernetice IRGC",
+   "data": "2026-10-11",
+   "titlu": "Franța acuză oficial IRGC de atacuri cibernetice asupra supermarketurilor europene",
+   "rezumat": "Ministrul de Externe francez Jean-Noël Barrot a acuzat oficial unitatea cibernetică IRGC „Shahid Kaveh\" de atacurile din 11 octombrie care au perturbat sistemele de refrigerare în 400–700 de supermarketuri din Franța, ridicând temperaturile până la 50°C și cauzând daune de zeci de milioane de euro, potrivit The Cradle, Deutsche Welle, BBC și Reuters. Procuratura din Paris a deschis o anchetă și a emis mandate de arestare internaționale pentru șeful unității și doi adjuncți; ambasadorul iranian a fost convocat.",
+   "domenii": [
+    "militar",
+    "politic",
+    "juridic"
+   ],
+   "impact": 4,
+   "afecteazaDirect": true,
+   "riscEscaladare": false,
+   "veridicitate": "confirmat",
+   "stare": "de urmărit",
+   "surse": [
+    "sb6b56bf126",
+    "sa5cbbc1614",
+    "s91a529c1e7",
+    "sc01e1a3745",
+    "s9d74de756d",
+    "s2046f23876",
+    "s72a9a574ba",
+    "s91c58eb5b8",
+    "s2c354182e9",
+    "sac3560adbb",
+    "sb94f2255ba"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Paris (acuzații; atacuri în Franța)",
+    "coord": [
+     2.35,
+     48.85
+    ],
+    "precizie": "exact",
+    "inAfaraHartii": true
+   },
+   "raport": "2026-11-09T20:18",
+   "istoric": [],
+   "zona": "Z3",
+   "ajustare": 0,
+   "criticitate": 4
+  },
+  {
+   "id": "ir-20261102-al-doilea-val-de-atacuri-ciber",
+   "regiune": "Iran",
+   "fir": "Franța – Iran: Atacuri cibernetice IRGC",
+   "data": "2026-11-02",
+   "titlu": "Al doilea val de atacuri cibernetice IRGC afectează șapte țări europene",
+   "rezumat": "Un al doilea val de atacuri cibernetice atribuit unității IRGC „Shahid Kaveh\" a afectat șapte alte țări europene în noaptea de 2 noiembrie, potrivit The Insider și Bellum Acta. Detaliile privind țările afectate și amploarea daunelor nu au fost precizate în raport.",
+   "domenii": [
+    "militar",
+    "politic"
+   ],
+   "impact": 4,
+   "afecteazaDirect": false,
+   "riscEscaladare": false,
+   "veridicitate": "confirmat",
+   "stare": "de urmărit",
+   "surse": [
+    "sac3560adbb",
+    "sb94f2255ba"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Europa (locație exactă nespecificată)",
+    "coord": [
+     15.0,
+     50.0
+    ],
+    "precizie": "aproximativ",
+    "inAfaraHartii": true
+   },
+   "raport": "2026-11-09T20:18",
+   "istoric": [],
+   "zona": "Z4",
+   "ajustare": -2,
+   "criticitate": 2
+  },
+  {
+   "id": "ir-20261109-ue-urmeaza-sa-impuna-sanctiuni",
+   "regiune": "Iran",
+   "fir": "Franța – Iran: Atacuri cibernetice IRGC",
+   "data": "2026-11-09",
+   "titlu": "UE urmează să impună sancțiuni Iranului după acuzațiile cibernetice franceze",
+   "rezumat": "UE urmează să impună sancțiuni Iranului în urma acuzațiilor oficiale franceze privind atacurile cibernetice ale IRGC asupra infrastructurii civile europene, potrivit BRICS News și Insider Paper. Iranul nu a comentat oficial acuzațiile.",
+   "domenii": [
+    "politic",
+    "economic"
+   ],
+   "impact": 3,
+   "afecteazaDirect": true,
+   "riscEscaladare": false,
+   "veridicitate": "probabil",
+   "stare": "de urmărit",
+   "surse": [
+    "sd3427cc9b3",
+    "s91a529c1e7"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Bruxelles",
+    "coord": [
+     4.35,
+     50.85
+    ],
+    "precizie": "exact",
+    "inAfaraHartii": true
+   },
+   "raport": "2026-11-09T20:18",
+   "istoric": [],
+   "zona": "Z3",
+   "ajustare": 0,
+   "criticitate": 3
+  },
+  {
+   "id": "ir-20261109-houthi-lovesc-conducta-est-ves",
+   "regiune": "Iran",
+   "fir": "Yemen – Arabia Saudită: Atacuri reciproce",
+   "data": "2026-11-09",
+   "titlu": "Houthi lovesc conducta Est-Vest saudită în regiunea Medina",
+   "rezumat": "Houthii au lovit conducta Est-Vest a Arabiei Saudite în regiunea Medina, provocând un incendiu limitat stins de echipele de urgență, potrivit Middle East Observer, The Cradle și OSINT. Ministerul Energiei saudit a confirmat că operațiunile conductei nu au fost afectate. Conducta este ruta alternativă la Strâmtoarea Hormuz.",
+   "domenii": [
+    "militar",
+    "energie"
+   ],
+   "impact": 3,
+   "afecteazaDirect": false,
+   "riscEscaladare": false,
+   "veridicitate": "confirmat",
+   "stare": "încheiat",
+   "surse": [
+    "sf69a37aa18",
+    "s02341f34f8",
+    "s5dd06f16e3",
+    "sa2fa74db22",
+    "s02d69ce079",
+    "s10e3344985",
+    "s048ac4f6e9",
+    "s8c03b0f796",
+    "s24cd7c0331",
+    "s271af571b0",
+    "sfaa14ead7f",
+    "s3adb901c45",
+    "s1bd0d66154"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Conducta Est-Vest, regiunea Medina, Arabia Saudită",
+    "coord": [
+     38.0,
+     24.5
+    ],
+    "precizie": "aproximativ"
+   },
+   "raport": "2026-11-09T20:18",
+   "istoric": [],
+   "zona": "Z1",
+   "ajustare": 0,
+   "criticitate": 3
+  },
+  {
+   "id": "ir-20261109-coalitia-saudita-efectueaza-10",
+   "regiune": "Iran",
+   "fir": "Yemen – Arabia Saudită: Atacuri reciproce",
+   "data": "2026-11-09",
+   "titlu": "Coaliția saudită efectuează 103 raiduri aeriene în 24 de ore în Yemen",
+   "rezumat": "Forțele saudite au efectuat 103 raiduri aeriene în 24 de ore, aducând totalul la 4.563, potrivit Middle East Observer, MaxOsint Intel și Intel Slava. Raidurile vizează pozițiile Houthi pe teritoriul yemenit.",
+   "domenii": [
+    "militar"
+   ],
+   "impact": 3,
+   "afecteazaDirect": false,
+   "riscEscaladare": false,
+   "veridicitate": "confirmat",
+   "stare": "în desfășurare",
+   "surse": [
+    "s0fba30ee32",
+    "sde7f264a85",
+    "sa55f6a4f8a",
+    "s55fbc71b6f",
+    "s3c3e1f623d"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Yemen",
+    "coord": [
+     44.19,
+     15.55
+    ],
+    "precizie": "aproximativ"
+   },
+   "raport": "2026-11-09T20:18",
+   "istoric": [],
+   "zona": "Z2",
+   "ajustare": -1,
+   "criticitate": 2
+  },
+  {
+   "id": "ir-20261109-parlamentul-yemenit-condamna-p",
+   "regiune": "Iran",
+   "fir": "Yemen – Arabia Saudită: Atacuri reciproce",
+   "data": "2026-11-09",
+   "titlu": "Parlamentul yemenit condamnă participarea Pakistanului la operațiunile saudite",
+   "rezumat": "Vorbitorul Parlamentului yemenit a trimis un mesaj Parlamentului pakistanez, condamnând participarea Pakistanului la operațiunile militare saudite în Yemen, potrivit Middle East Observer. Mesajul reflectă eforturile Houthi de a izola diplomatic coaliția saudită.",
+   "domenii": [
+    "politic",
+    "info"
+   ],
+   "impact": 2,
+   "afecteazaDirect": false,
+   "riscEscaladare": false,
+   "veridicitate": "confirmat",
+   "stare": "nou",
+   "surse": [
+    "s935126999e"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Sanaa (mesaj trimis din Yemen)",
+    "coord": [
+     44.21,
+     15.35
+    ],
+    "precizie": "exact"
+   },
+   "raport": "2026-11-09T20:18",
+   "istoric": [],
+   "zona": "Z2",
+   "ajustare": -1,
+   "criticitate": 1
+  },
+  {
+   "id": "ir-20261109-idf-anunta-doua-noi-batalioane",
+   "regiune": "Iran",
+   "fir": "Israel: Formarea guvernului",
+   "data": "2026-11-09",
+   "titlu": "IDF anunță două noi batalioane specializate în drone și armament de precizie",
+   "rezumat": "IDF a anunțat înființarea a două noi batalioane specializate în drone și armament de precizie, potrivit Middle East Observer și Geopolitics Prime. Anunțul vine în contextul pregătirilor israeliene pentru un posibil conflict pe două fronturi.",
+   "domenii": [
+    "militar"
+   ],
+   "impact": 3,
+   "afecteazaDirect": false,
+   "riscEscaladare": false,
+   "veridicitate": "confirmat",
+   "stare": "nou",
+   "surse": [
+    "s4cd41316aa",
+    "sdfcaf639fb"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Tel Aviv (Israel)",
+    "coord": [
+     34.78,
+     32.08
+    ],
+    "precizie": "exact"
+   },
+   "raport": "2026-11-09T20:18",
+   "istoric": [],
+   "zona": "Z2",
+   "ajustare": -1,
+   "criticitate": 2
+  },
+  {
+   "id": "ir-20261110-noul-knesset-depune-juramantul",
+   "regiune": "Iran",
+   "fir": "Israel: Formarea guvernului",
+   "data": "2026-11-10",
+   "titlu": "Noul Knesset depune jurământul; Eisenkot urmează să fie vorbitor",
+   "rezumat": "Noul Knesset urmează să depună jurământul pe 10 noiembrie, iar Eisenkot sau reprezentantul său va fi vorbitorul Knessetului conform unui acord, potrivit Middle East Observer. Analiza rusă notează că Eisenkot are 56 de mandate cu RAAM, fără majoritate fără Lista Unită.",
+   "domenii": [
+    "politic"
+   ],
+   "impact": 3,
+   "afecteazaDirect": false,
+   "riscEscaladare": false,
+   "veridicitate": "confirmat",
+   "stare": "de urmărit",
+   "surse": [
+    "s63185f9307",
+    "s81cddf8a3a"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Ierusalim",
+    "coord": [
+     35.22,
+     31.77
+    ],
+    "precizie": "exact"
+   },
+   "raport": "2026-11-09T20:18",
+   "istoric": [],
+   "zona": "Z2",
+   "ajustare": -1,
+   "criticitate": 2
   }
  ],
  "regiuni": {
