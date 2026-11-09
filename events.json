@@ -13,7 +13,7 @@
     "regiune": "Iran",
     "ora": "2026-11-08T20:22",
     "fisier": "2026-11-08_2022.txt",
-    "noi": 0,
+    "noi": 21,
     "actualizari": 0
    }
   ],
@@ -55,6 +55,312 @@
    "tabara": "Ucrainean",
    "orientare": "pro-ucrainean (estimat)",
    "url": "https://t.me/truexanewsua/148257"
+  },
+  "s49e753b7bc": {
+   "nume": "Fotros Resistance",
+   "tabara": "Pro-iranian",
+   "orientare": "",
+   "url": "https://t.me/FotrosResistancee/24537"
+  },
+  "sfd6b9cc375": {
+   "nume": "Fotros Resistance",
+   "tabara": "Pro-iranian",
+   "orientare": "",
+   "url": "https://t.me/FotrosResistancee/24538"
+  },
+  "s93656f1a10": {
+   "nume": "ResistanceTrench mirror",
+   "tabara": "Pro-iranian",
+   "orientare": "",
+   "url": "https://t.me/RezistanceTrench/58504"
+  },
+  "s06e41eced6": {
+   "nume": "Clash Report",
+   "tabara": "Occidental",
+   "orientare": "",
+   "url": "https://t.me/ClashReport/105094"
+  },
+  "s60574523f3": {
+   "nume": "MaxOsint Intel",
+   "tabara": "Occidental",
+   "orientare": "",
+   "url": "https://t.me/MaxOsintIntel/26197"
+  },
+  "s9645ffa91f": {
+   "nume": "Fotros Resistance",
+   "tabara": "Pro-iranian",
+   "orientare": "",
+   "url": "https://t.me/FotrosResistancee/24543"
+  },
+  "s00ccd22340": {
+   "nume": "Press TV",
+   "tabara": "Pro-iranian",
+   "orientare": "",
+   "url": "https://t.me/presstv/213927"
+  },
+  "s61482db214": {
+   "nume": "Geopolitics Prime",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/geopolitics_prime/77491"
+  },
+  "s78ef0347b1": {
+   "nume": "OSINT",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/OSINTLive/590367"
+  },
+  "sed5c84e87d": {
+   "nume": "Кирилл Фёдоров / Война История Оружие",
+   "tabara": "Rus critic (estimat)",
+   "orientare": "",
+   "url": "https://t.me/warhistoryalconafter/290467"
+  },
+  "s444b6c65f4": {
+   "nume": "Хезболла | Ливан 🇱🇧",
+   "tabara": "Pro-iranian",
+   "orientare": "",
+   "url": "https://t.me/hizbullahru/37454"
+  },
+  "scec7689058": {
+   "nume": "Clash Report",
+   "tabara": "Occidental",
+   "orientare": "",
+   "url": "https://t.me/ClashReport/105096"
+  },
+  "s1fb3bff814": {
+   "nume": "Stay Free",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/stayfreeworld/71630"
+  },
+  "scc1f0e1775": {
+   "nume": "The War Reporter",
+   "tabara": "Occidental",
+   "orientare": "",
+   "url": "https://t.me/thewarreporter/22711"
+  },
+  "s23fc51ae75": {
+   "nume": "MaxOsint Intel",
+   "tabara": "Occidental",
+   "orientare": "",
+   "url": "https://t.me/MaxOsintIntel/26200"
+  },
+  "s63f702fa93": {
+   "nume": "GeoRadar",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/georadarinfo/23101"
+  },
+  "s561a5a9bc7": {
+   "nume": "ParsToday Russian 🇮🇷",
+   "tabara": "Pro-iranian",
+   "orientare": "",
+   "url": "https://t.me/parstodayrussian/216982"
+  },
+  "s9f5c7e128d": {
+   "nume": "RS İNFO - Иран 🇮🇷 | Израиль 🇮🇱 | США 🇺🇸",
+   "tabara": "Pro-iranian",
+   "orientare": "",
+   "url": "https://t.me/resistance_info/38017"
+  },
+  "saf8f3a2dde": {
+   "nume": "Islamic World News",
+   "tabara": "Pro-iranian",
+   "orientare": "",
+   "url": "https://t.me/iswnews_en/21009"
+  },
+  "s1eda55419d": {
+   "nume": "Press TV",
+   "tabara": "Pro-iranian",
+   "orientare": "",
+   "url": "https://t.me/presstv/213926"
+  },
+  "s764be29620": {
+   "nume": "Intel Slava",
+   "tabara": "Rus critic (estimat)",
+   "orientare": "",
+   "url": "https://t.me/intelslava/97757"
+  },
+  "sce41e3d253": {
+   "nume": "Press TV",
+   "tabara": "Pro-iranian",
+   "orientare": "",
+   "url": "https://t.me/presstv/213925"
+  },
+  "s1596dda4ae": {
+   "nume": "Megatron",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/megatron_ron/17563"
+  },
+  "sd3e2073bee": {
+   "nume": "Press TV",
+   "tabara": "Pro-iranian",
+   "orientare": "",
+   "url": "https://t.me/presstv/213922"
+  },
+  "s0c6a214b48": {
+   "nume": "War Monitor",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/warmonitors/46574"
+  },
+  "s7690d293ea": {
+   "nume": "ЕЖ",
+   "tabara": "Rus critic (estimat)",
+   "orientare": "",
+   "url": "https://t.me/ejdailyru/428082"
+  },
+  "s939360c1da": {
+   "nume": "Islamic World News",
+   "tabara": "Pro-iranian",
+   "orientare": "",
+   "url": "https://t.me/iswnews_en/21002"
+  },
+  "sc3a623ec71": {
+   "nume": "The Cradle",
+   "tabara": "Pro-iranian",
+   "orientare": "",
+   "url": "https://t.me/thecradlemedia/70677"
+  },
+  "sc2129eccb2": {
+   "nume": "OSINT",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/OSINTLive/590347"
+  },
+  "s20f338eca2": {
+   "nume": "The Insider",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/theinsider/53712"
+  },
+  "sf8cddd98fb": {
+   "nume": "Операция Z: Военкоры Русской Весны",
+   "tabara": "Rus oficial (estimat)",
+   "orientare": "",
+   "url": "https://t.me/RVvoenkor/126776"
+  },
+  "s72cb29fcfd": {
+   "nume": "OSINTdefender",
+   "tabara": "Occidental",
+   "orientare": "",
+   "url": "https://t.me/OSINTdefender/20711"
+  },
+  "s317854c57a": {
+   "nume": "The Cradle",
+   "tabara": "Pro-iranian",
+   "orientare": "",
+   "url": "https://t.me/thecradlemedia/70682"
+  },
+  "sa75867b70e": {
+   "nume": "The Cradle",
+   "tabara": "Pro-iranian",
+   "orientare": "",
+   "url": "https://t.me/thecradlemedia/70681"
+  },
+  "sbd16d565b6": {
+   "nume": "War Monitor",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/warmonitors/46572"
+  },
+  "s85b2b6dc80": {
+   "nume": "IRNA News Agency 🇮🇷",
+   "tabara": "Pro-iranian",
+   "orientare": "",
+   "url": "https://t.me/Irna_en/41935"
+  },
+  "s2e0b115afb": {
+   "nume": "TASS Russian news agency",
+   "tabara": "Internațional",
+   "orientare": "",
+   "url": "https://t.me/tassagency_en/98104"
+  },
+  "s6b152da4a8": {
+   "nume": "Bellum Acta - Intel, Urgent News and Archives ✝️ #FreeVenezuela",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/BellumActaNews/178330"
+  },
+  "s8af91f15c5": {
+   "nume": "Bellum Acta - Intel, Urgent News and Archives ✝️ #FreeVenezuela",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/BellumActaNews/178334"
+  },
+  "s696b9b9183": {
+   "nume": "Bellum Acta - Intel, Urgent News and Archives ✝️ #FreeVenezuela",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/BellumActaNews/178335"
+  },
+  "seecd901185": {
+   "nume": "Bellum Acta - Intel, Urgent News and Archives ✝️ #FreeVenezuela",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/BellumActaNews/178336"
+  },
+  "sbd521dedee": {
+   "nume": "MaxOsint Intel",
+   "tabara": "Occidental",
+   "orientare": "",
+   "url": "https://t.me/MaxOsintIntel/26195"
+  },
+  "s9898c5fb7e": {
+   "nume": "OSINT",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/OSINTLive/590349"
+  },
+  "s4e04d8970e": {
+   "nume": "OSINT",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/OSINTLive/590357"
+  },
+  "sdb3e913eb6": {
+   "nume": "Хезболла | Ливан 🇱🇧",
+   "tabara": "Pro-iranian",
+   "orientare": "",
+   "url": "https://t.me/hizbullahru/37452"
+  },
+  "s1a92fe4a13": {
+   "nume": "Anadolu Agency",
+   "tabara": "Internațional",
+   "orientare": "",
+   "url": "https://t.me/anadoluagency_en/76298"
+  },
+  "s4650986704": {
+   "nume": "DD Geopolitics",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/DDGeopolitics/197642"
+  },
+  "see0a1f5f4f": {
+   "nume": "Рыбарь",
+   "tabara": "Rus oficial (estimat)",
+   "orientare": "",
+   "url": "https://t.me/rybar/84541"
+  },
+  "s4d1034a096": {
+   "nume": "Кирилл Фёдоров / Война История Оружие",
+   "tabara": "Rus critic (estimat)",
+   "orientare": "",
+   "url": "https://t.me/warhistoryalconafter/290452"
+  },
+  "s6dab3f1fd0": {
+   "nume": "OSINT",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/OSINTLive/590369"
+  },
+  "sf5a5564c0e": {
+   "nume": "GAZA NOW IN ENGLISH",
+   "tabara": "Internațional (estimat)",
+   "orientare": "",
+   "url": "https://t.me/gazaalanpa/27210"
   }
  },
  "evenimente": [
@@ -370,6 +676,761 @@
    "impact": 2,
    "zona": "Z1",
    "ajustare": 0
+  },
+  {
+   "id": "ir-20261108-delegatia-iraniana-aterizeaza-",
+   "regiune": "Iran",
+   "fir": "Iran – SUA: Negocieri și ultimatum",
+   "data": "2026-11-08",
+   "titlu": "Delegația iraniană aterizează la Doha pentru negocieri cu SUA",
+   "rezumat": "O aeronavă Meraj Airlines (zbor IRAN06) a aterizat la Doha transportând delegația iraniană pentru discuții cu SUA, potrivit datelor de zbor publice confirmate de mai multe surse independente. Negocierile vizează un posibil acord nuclear și redeschiderea Strâmtorii Hormuz.",
+   "domenii": [
+    "politic",
+    "militar"
+   ],
+   "impact": 5,
+   "afecteazaDirect": true,
+   "riscEscaladare": true,
+   "veridicitate": "confirmat",
+   "stare": "în desfășurare",
+   "surse": [
+    "s49e753b7bc",
+    "sfd6b9cc375",
+    "s93656f1a10"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Doha",
+    "coord": [
+     51.53,
+     25.29
+    ],
+    "precizie": "exact"
+   },
+   "raport": "2026-11-08T20:22",
+   "istoric": [],
+   "zona": "Z1",
+   "ajustare": 1,
+   "criticitate": 5
+  },
+  {
+   "id": "ir-20261108-araghchi-emite-ultimatum-de-do",
+   "regiune": "Iran",
+   "fir": "Iran – SUA: Negocieri și ultimatum",
+   "data": "2026-11-08",
+   "titlu": "Araghchi emite ultimatum de două zile către SUA",
+   "rezumat": "Ministrul de Externe iranian Abbas Araghchi a transmis un mesaj public cu caracter de ultimatum, acordând SUA două zile să accepte propunerea iraniană de încetare a ostilităților pe toate fronturile, altfel „luptătorii noștri gata de luptă vor deschide adevăratul iad\", potrivit mai multor surse din tabere diferite.",
+   "domenii": [
+    "politic",
+    "militar"
+   ],
+   "impact": 5,
+   "afecteazaDirect": true,
+   "riscEscaladare": true,
+   "veridicitate": "confirmat",
+   "stare": "în desfășurare",
+   "surse": [
+    "s06e41eced6",
+    "s60574523f3",
+    "s9645ffa91f",
+    "s00ccd22340",
+    "s61482db214",
+    "s78ef0347b1",
+    "sed5c84e87d",
+    "s444b6c65f4"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Teheran (declarație Araghchi)",
+    "coord": [
+     51.39,
+     35.69
+    ],
+    "precizie": "exact"
+   },
+   "raport": "2026-11-08T20:22",
+   "istoric": [],
+   "zona": "Z0",
+   "ajustare": 2,
+   "criticitate": 5
+  },
+  {
+   "id": "ir-20261108-trump-lovituri-asupra-iranului",
+   "regiune": "Iran",
+   "fir": "Iran – SUA: Negocieri și ultimatum",
+   "data": "2026-11-08",
+   "titlu": "Trump: lovituri asupra Iranului „extrem de puțin probabile\", amenință cu distrugerea a 38 de poduri",
+   "rezumat": "Trump a declarat pentru CNN că noi lovituri asupra Iranului sunt „extrem de puțin probabile\" dacă Teheranul progresează spre un acord nuclear și redeschide Hormuzul, dar a amenințat că SUA pot distruge 38 de poduri iraniene „în literalmente o oră\" și a susținut că Iranul a rămas cu 10% din capacitatea de rachete și 15% din cea de drone, afirmații neconfirmate independent.",
+   "domenii": [
+    "politic",
+    "militar"
+   ],
+   "impact": 4,
+   "afecteazaDirect": true,
+   "riscEscaladare": true,
+   "veridicitate": "partial",
+   "stare": "în desfășurare",
+   "surse": [
+    "scec7689058",
+    "s1fb3bff814",
+    "scc1f0e1775",
+    "s23fc51ae75"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Teheran (declarație Trump, Washington)",
+    "coord": [
+     51.39,
+     35.69
+    ],
+    "precizie": "exact"
+   },
+   "raport": "2026-11-08T20:22",
+   "istoric": [],
+   "zona": "Z0",
+   "ajustare": 2,
+   "criticitate": 5
+  },
+  {
+   "id": "ir-20261108-sua-contacteaza-china-pentru-a",
+   "regiune": "Iran",
+   "fir": "Iran – SUA: Negocieri și ultimatum",
+   "data": "2026-11-08",
+   "titlu": "SUA contactează China pentru a influența Iranul în negocieri",
+   "rezumat": "Secretarul Trezoreriei Scott Bessent a contactat China pentru a-și folosi influența asupra Teheranului în contextul negocierilor nucleare, iar Beijingul a transmis mesajul, potrivit GeoRadar și ParsToday.",
+   "domenii": [
+    "politic",
+    "economic"
+   ],
+   "impact": 3,
+   "afecteazaDirect": true,
+   "riscEscaladare": false,
+   "veridicitate": "probabil",
+   "stare": "în desfășurare",
+   "surse": [
+    "s63f702fa93",
+    "s561a5a9bc7"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Beijing (acțiune diplomatică SUA)",
+    "coord": [
+     116.39,
+     39.91
+    ],
+    "precizie": "exact",
+    "inAfaraHartii": true
+   },
+   "raport": "2026-11-08T20:22",
+   "istoric": [],
+   "zona": "Z2",
+   "ajustare": 0,
+   "criticitate": 3
+  },
+  {
+   "id": "ir-20261108-irgc-ridica-oficial-restrictii",
+   "regiune": "Iran",
+   "fir": "Iran – SUA: Negocieri și ultimatum",
+   "data": "2026-11-08",
+   "titlu": "IRGC ridică oficial restricțiile de rază pentru rachetele iraniene",
+   "rezumat": "IRGC a anunțat oficial ridicarea restricțiilor de rază pentru rachetele iraniene, potrivit RS İNFO, într-un gest interpretat ca semnal de escaladare deliberată menit să contrabalanseze presiunea americană în contextul negocierilor din Qatar.",
+   "domenii": [
+    "militar"
+   ],
+   "impact": 4,
+   "afecteazaDirect": true,
+   "riscEscaladare": true,
+   "veridicitate": "probabil",
+   "stare": "nou",
+   "surse": [
+    "s9f5c7e128d"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Teheran",
+    "coord": [
+     51.39,
+     35.69
+    ],
+    "precizie": "exact"
+   },
+   "raport": "2026-11-08T20:22",
+   "istoric": [],
+   "zona": "Z0",
+   "ajustare": 2,
+   "criticitate": 5
+  },
+  {
+   "id": "ir-20261108-consilier-irgc-rezervele-de-ar",
+   "regiune": "Iran",
+   "fir": "Iran – SUA: Negocieri și ultimatum",
+   "data": "2026-11-08",
+   "titlu": "Consilier IRGC: rezervele de armament suficiente „pentru ani de zile\"",
+   "rezumat": "Consilierul Forțelor Aerospațiale IRGC a declarat că rezervele de armament ale Iranului sunt suficiente „pentru ani de zile\", potrivit Islamic World News, în contextul afirmațiilor americane despre distrugerea majorității capacităților militare iraniene.",
+   "domenii": [
+    "militar",
+    "info"
+   ],
+   "impact": 2,
+   "afecteazaDirect": true,
+   "riscEscaladare": false,
+   "veridicitate": "neconfirmat",
+   "stare": "nou",
+   "surse": [
+    "saf8f3a2dde"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Teheran",
+    "coord": [
+     51.39,
+     35.69
+    ],
+    "precizie": "exact"
+   },
+   "raport": "2026-11-08T20:22",
+   "istoric": [],
+   "zona": "Z0",
+   "ajustare": 1,
+   "criticitate": 3
+  },
+  {
+   "id": "ir-20261108-iran-reconstruieste-80-din-dep",
+   "regiune": "Iran",
+   "fir": "Iran – SUA: Negocieri și ultimatum",
+   "data": "2026-11-08",
+   "titlu": "Iran reconstruiește 80% din depozitele de petrol distruse în război",
+   "rezumat": "Presa iraniană raportează că Iranul a reconstruit 80% din depozitele de petrol distruse în urma conflictului, potrivit Press TV, ca parte a narativului rezistenței economice promovat de Teheran în contextul negocierilor.",
+   "domenii": [
+    "energie",
+    "economic"
+   ],
+   "impact": 2,
+   "afecteazaDirect": true,
+   "riscEscaladare": false,
+   "veridicitate": "neconfirmat",
+   "stare": "în desfășurare",
+   "surse": [
+    "s1eda55419d"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Iran",
+    "coord": [
+     53.69,
+     32.43
+    ],
+    "precizie": "aproximativ"
+   },
+   "raport": "2026-11-08T20:22",
+   "istoric": [],
+   "zona": "Z0",
+   "ajustare": 1,
+   "criticitate": 3
+  },
+  {
+   "id": "ir-20261108-irgc-navy-ataca-trei-petrolier",
+   "regiune": "Iran",
+   "fir": "Strâmtoarea Hormuz: Escaladare tactică",
+   "data": "2026-11-08",
+   "titlu": "IRGC Navy atacă trei petroliere pe rute „neautorizate\" în Hormuz",
+   "rezumat": "IRGC Navy a anunțat că trei petroliere au explodat și au luat foc după ce au tranzitat rute „neautorizate\" cu transponderii dezactivați în Strâmtoarea Hormuz, potrivit Press TV și Intel Slava. Imagini Sentinel-2 confirmă coloane masive de fum la nord-vest de Khasab, iar UKMTO a raportat un incident suplimentar cu echipaj evacuat; mecanismul exact (mine versus rachete anti-navă) rămâne neconfirmat.",
+   "domenii": [
+    "militar",
+    "energie"
+   ],
+   "impact": 5,
+   "afecteazaDirect": true,
+   "riscEscaladare": true,
+   "veridicitate": "partial",
+   "stare": "în desfășurare",
+   "surse": [
+    "s764be29620",
+    "sce41e3d253",
+    "s1596dda4ae"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Strâmtoarea Hormuz, nord-vest Khasab",
+    "coord": [
+     56.25,
+     26.2
+    ],
+    "precizie": "aproximativ"
+   },
+   "raport": "2026-11-08T20:22",
+   "istoric": [],
+   "zona": "Z1",
+   "ajustare": 1,
+   "criticitate": 5
+  },
+  {
+   "id": "ir-20261108-petrolier-lovit-de-mina-in-zon",
+   "regiune": "Iran",
+   "fir": "Strâmtoarea Hormuz: Escaladare tactică",
+   "data": "2026-11-08",
+   "titlu": "Petrolier lovit de mină în zona estică a Strâmtorii Hormuz",
+   "rezumat": "Presa iraniană raportează un al patrulea incident maritim – un petrolier care a lovit o mină în zona estică a Strâmtorii Hormuz, potrivit Press TV și War Monitor, fără confirmare independentă a mecanismului.",
+   "domenii": [
+    "militar",
+    "energie"
+   ],
+   "impact": 4,
+   "afecteazaDirect": true,
+   "riscEscaladare": true,
+   "veridicitate": "neconfirmat",
+   "stare": "de urmărit",
+   "surse": [
+    "sd3e2073bee",
+    "s0c6a214b48"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Strâmtoarea Hormuz, zona estică",
+    "coord": [
+     57.1,
+     26.0
+    ],
+    "precizie": "aproximativ"
+   },
+   "raport": "2026-11-08T20:22",
+   "istoric": [],
+   "zona": "Z1",
+   "ajustare": 1,
+   "criticitate": 5
+  },
+  {
+   "id": "ir-20261108-centcom-anunta-masuri-impotriv",
+   "regiune": "Iran",
+   "fir": "Strâmtoarea Hormuz: Escaladare tactică",
+   "data": "2026-11-08",
+   "titlu": "CENTCOM anunță măsuri împotriva ocoluirii blocadei prin granițe terestre",
+   "rezumat": "CENTCOM a anunțat „măsuri serioase\" împotriva ocoluirii blocadei prin granițe terestre, iar Pentagonul intenționează să perturbe rutele de aprovizionare prin Marea Caspică, potrivit ЕЖ, în contextul escaladării în Strâmtoarea Hormuz.",
+   "domenii": [
+    "militar",
+    "economic"
+   ],
+   "impact": 3,
+   "afecteazaDirect": true,
+   "riscEscaladare": true,
+   "veridicitate": "probabil",
+   "stare": "de urmărit",
+   "surse": [
+    "s7690d293ea"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Marea Caspică",
+    "coord": [
+     51.0,
+     41.0
+    ],
+    "precizie": "aproximativ"
+   },
+   "raport": "2026-11-08T20:22",
+   "istoric": [],
+   "zona": "Z1",
+   "ajustare": 1,
+   "criticitate": 4
+  },
+  {
+   "id": "ir-20261108-sua-ordona-inchiderea-punctulu",
+   "regiune": "Iran",
+   "fir": "Strâmtoarea Hormuz: Escaladare tactică",
+   "data": "2026-11-08",
+   "titlu": "SUA ordonă închiderea punctului de trecere Al-Shib între Irak și Iran",
+   "rezumat": "Irakul raportează că SUA au ordonat închiderea punctului de trecere Al-Shib cu Iranul, provocând proteste ale parlamentarilor din provincia Maysan, potrivit Islamic World News.",
+   "domenii": [
+    "politic",
+    "economic"
+   ],
+   "impact": 3,
+   "afecteazaDirect": true,
+   "riscEscaladare": false,
+   "veridicitate": "probabil",
+   "stare": "nou",
+   "surse": [
+    "s939360c1da"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Al-Shib, provincia Maysan, Irak",
+    "coord": [
+     47.15,
+     31.85
+    ],
+    "precizie": "aproximativ"
+   },
+   "raport": "2026-11-08T20:22",
+   "istoric": [],
+   "zona": "Z1",
+   "ajustare": 0,
+   "criticitate": 3
+  },
+  {
+   "id": "ir-20261108-houthi-ataca-riyadh-daune-conf",
+   "regiune": "Iran",
+   "fir": "Yemen – Arabia Saudită: Atacuri reciproce",
+   "data": "2026-11-08",
+   "titlu": "Houthi atacă Riyadh: daune confirmate la turnul Aramco din districtul financiar",
+   "rezumat": "Forțele armate yemenite au anunțat atacuri coordonate asupra Aeroportului Khalid, rezervoarelor Aramco și districtului financiar din Riyadh. Daune la turnul Aramco din King Abdullah Financial District sunt confirmate de imagini geolocalizate OSINT și de Ministerul Energiei saudit, care le atribuie „obstacolelor de rachete interceptate\", potrivit OSINTdefender și The Insider.",
+   "domenii": [
+    "militar",
+    "energie"
+   ],
+   "impact": 4,
+   "afecteazaDirect": false,
+   "riscEscaladare": true,
+   "veridicitate": "confirmat",
+   "stare": "în desfășurare",
+   "surse": [
+    "sc3a623ec71",
+    "sc2129eccb2",
+    "s20f338eca2",
+    "sf8cddd98fb",
+    "s72cb29fcfd",
+    "s317854c57a"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "King Abdullah Financial District, Riyadh",
+    "coord": [
+     46.64,
+     24.77
+    ],
+    "precizie": "exact"
+   },
+   "raport": "2026-11-08T20:22",
+   "istoric": [],
+   "zona": "Z1",
+   "ajustare": 1,
+   "criticitate": 5
+  },
+  {
+   "id": "ir-20261108-houthi-anunta-atacuri-asupra-i",
+   "regiune": "Iran",
+   "fir": "Yemen – Arabia Saudită: Atacuri reciproce",
+   "data": "2026-11-08",
+   "titlu": "Houthi anunță atacuri asupra instalațiilor Aramco la Abqaiq",
+   "rezumat": "Forțele armate yemenite au anunțat atacuri asupra instalațiilor Aramco la Abqaiq, potrivit The Cradle și Press TV, fără confirmare prin imagini independente a daunelor la această locație.",
+   "domenii": [
+    "militar",
+    "energie"
+   ],
+   "impact": 4,
+   "afecteazaDirect": false,
+   "riscEscaladare": true,
+   "veridicitate": "neconfirmat",
+   "stare": "de urmărit",
+   "surse": [
+    "sc3a623ec71",
+    "sa75867b70e"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Abqaiq, Arabia Saudită",
+    "coord": [
+     49.67,
+     25.93
+    ],
+    "precizie": "exact"
+   },
+   "raport": "2026-11-08T20:22",
+   "istoric": [],
+   "zona": "Z1",
+   "ajustare": 1,
+   "criticitate": 5
+  },
+  {
+   "id": "ir-20261108-houthi-ataca-concentrari-milit",
+   "regiune": "Iran",
+   "fir": "Yemen – Arabia Saudită: Atacuri reciproce",
+   "data": "2026-11-08",
+   "titlu": "Houthi atacă concentrări militare saudite în Al-Jawf și Marib",
+   "rezumat": "Forțele armate yemenite au anunțat atacuri asupra concentrărilor militare saudite în Al-Jawf și Marib, precum și asupra forțelor saudite în Lahj, potrivit The Cradle, fără confirmare independentă a daunelor.",
+   "domenii": [
+    "militar"
+   ],
+   "impact": 3,
+   "afecteazaDirect": false,
+   "riscEscaladare": false,
+   "veridicitate": "neconfirmat",
+   "stare": "în desfășurare",
+   "surse": [
+    "sc3a623ec71",
+    "sa75867b70e"
+   ],
+   "loc": {
+    "tip": "linie",
+    "nume": "Al-Jawf – Marib – Lahj, Yemen",
+    "coord": [
+     [
+      45.32,
+      16.79
+     ],
+     [
+      45.33,
+      15.47
+     ],
+     [
+      44.88,
+      13.07
+     ]
+    ],
+    "precizie": "aproximativ",
+    "inAfaraHartii": true
+   },
+   "raport": "2026-11-08T20:22",
+   "istoric": [],
+   "zona": "Z2",
+   "ajustare": -1,
+   "criticitate": 2
+  },
+  {
+   "id": "ir-20261108-coalitia-saudita-intercepteaza",
+   "regiune": "Iran",
+   "fir": "Yemen – Arabia Saudită: Atacuri reciproce",
+   "data": "2026-11-08",
+   "titlu": "Coaliția saudită interceptează rachete și distruge lansatoare în Saada",
+   "rezumat": "Coaliția saudită a interceptat două rachete balistice și două rachete de croazieră și a distrus două lansatoare în Saada, potrivit War Monitor și The Insider. Arabia Saudită a efectuat 91 de raiduri aeriene în 24 de ore, totalizând 4.460 de la reluarea campaniei.",
+   "domenii": [
+    "militar"
+   ],
+   "impact": 3,
+   "afecteazaDirect": false,
+   "riscEscaladare": false,
+   "veridicitate": "confirmat",
+   "stare": "în desfășurare",
+   "surse": [
+    "sbd16d565b6",
+    "s20f338eca2",
+    "sa75867b70e"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Saada, Yemen",
+    "coord": [
+     43.76,
+     16.94
+    ],
+    "precizie": "exact"
+   },
+   "raport": "2026-11-08T20:22",
+   "istoric": [],
+   "zona": "Z2",
+   "ajustare": -1,
+   "criticitate": 2
+  },
+  {
+   "id": "ir-20261108-iran-condamna-atacurile-saudit",
+   "regiune": "Iran",
+   "fir": "Yemen – Arabia Saudită: Atacuri reciproce",
+   "data": "2026-11-08",
+   "titlu": "Iran condamnă atacurile saudite asupra pieței Al-Hadara: 33 morți",
+   "rezumat": "Iranul a condamnat atacurile coaliției saudite asupra pieței Al-Hadara și a unui sat din Saada, soldate cu 33 de morți inclusiv 13 copii, potrivit IRNA.",
+   "domenii": [
+    "politic",
+    "militar"
+   ],
+   "impact": 3,
+   "afecteazaDirect": true,
+   "riscEscaladare": false,
+   "veridicitate": "probabil",
+   "stare": "nou",
+   "surse": [
+    "s85b2b6dc80"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Al-Hadara, Saada, Yemen",
+    "coord": [
+     43.76,
+     16.94
+    ],
+    "precizie": "aproximativ"
+   },
+   "raport": "2026-11-08T20:22",
+   "istoric": [],
+   "zona": "Z2",
+   "ajustare": 0,
+   "criticitate": 3
+  },
+  {
+   "id": "ir-20261108-herzog-confera-lui-eisenkot-ma",
+   "regiune": "Iran",
+   "fir": "Israel: Formarea guvernului",
+   "data": "2026-11-08",
+   "titlu": "Herzog conferă lui Eisenkot mandatul de a forma guvernul israelian",
+   "rezumat": "Președintele Isaac Herzog i-a conferit oficial lui Gadi Eisenkot mandatul de a forma guvernul, iar Eisenkot a acceptat, propunând un „guvern de urgență națională\" bazat pe patru principii și apelând la Likud și Sionism Religios să se alăture, potrivit TASS, Bellum Acta și Geopolitics Prime.",
+   "domenii": [
+    "politic"
+   ],
+   "impact": 4,
+   "afecteazaDirect": false,
+   "riscEscaladare": false,
+   "veridicitate": "confirmat",
+   "stare": "în desfășurare",
+   "surse": [
+    "s2e0b115afb",
+    "s6b152da4a8",
+    "s8af91f15c5",
+    "s696b9b9183",
+    "seecd901185",
+    "sbd521dedee"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Ierusalim",
+    "coord": [
+     35.22,
+     31.77
+    ],
+    "precizie": "exact"
+   },
+   "raport": "2026-11-08T20:22",
+   "istoric": [],
+   "zona": "Z2",
+   "ajustare": -1,
+   "criticitate": 3
+  },
+  {
+   "id": "ir-20261108-ministrul-apararii-katz-misiun",
+   "regiune": "Iran",
+   "fir": "Israel: Formarea guvernului",
+   "data": "2026-11-08",
+   "titlu": "Ministrul Apărării Katz: misiunea anti-Iran nu este completă",
+   "rezumat": "Ministrul Apărării israelian Katz a reiterat că misiunea anti-Iran nu este completă, potrivit OSINT și Хезболла, menținând presiunea retorică asupra programului nuclear iranian în contextul negocierilor Iran–SUA.",
+   "domenii": [
+    "politic",
+    "militar"
+   ],
+   "impact": 3,
+   "afecteazaDirect": true,
+   "riscEscaladare": true,
+   "veridicitate": "confirmat",
+   "stare": "în desfășurare",
+   "surse": [
+    "s9898c5fb7e",
+    "s4e04d8970e",
+    "sdb3e913eb6"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Tel Aviv (declarație Katz)",
+    "coord": [
+     34.78,
+     32.08
+    ],
+    "precizie": "exact"
+   },
+   "raport": "2026-11-08T20:22",
+   "istoric": [],
+   "zona": "Z2",
+   "ajustare": 1,
+   "criticitate": 4
+  },
+  {
+   "id": "ir-20261108-ehud-barak-cere-formarea-rapid",
+   "regiune": "Iran",
+   "fir": "Israel: Formarea guvernului",
+   "data": "2026-11-08",
+   "titlu": "Ehud Barak cere formarea rapidă a guvernului și înlăturarea lui Netanyahu",
+   "rezumat": "Ehud Barak a cerut formarea rapidă a guvernului israelian și înlăturarea lui Netanyahu ca prioritate, potrivit Anadolu Agency, în contextul în care Netanyahu a obținut doar 46 de recomandări față de 67 pentru Eisenkot.",
+   "domenii": [
+    "politic"
+   ],
+   "impact": 2,
+   "afecteazaDirect": false,
+   "riscEscaladare": false,
+   "veridicitate": "confirmat",
+   "stare": "în desfășurare",
+   "surse": [
+    "s1a92fe4a13"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Ierusalim",
+    "coord": [
+     35.22,
+     31.77
+    ],
+    "precizie": "exact"
+   },
+   "raport": "2026-11-08T20:22",
+   "istoric": [],
+   "zona": "Z2",
+   "ajustare": -1,
+   "criticitate": 1
+  },
+  {
+   "id": "ir-20261106-drona-shark-m-ucraineana-dobor",
+   "regiune": "Iran",
+   "fir": "Dronele ucrainene în Yemen",
+   "data": "2026-11-06",
+   "titlu": "Dronă Shark-M ucraineană doborâtă lângă Al-Sabiha, Lahj",
+   "rezumat": "O dronă Shark-M de producție ucraineană a fost doborâtă lângă Al-Sabiha în provincia Lahj pe 6 noiembrie, în zona forțelor pro-saudite, potrivit DD Geopolitics și Рыбарь. Cine opera drona rămâne neconfirmat, deși contextul cooperării militare ucraineno-saudite este documentat, inclusiv un zbor Il-76MD din Lvov la Sharura pe 13 octombrie.",
+   "domenii": [
+    "militar"
+   ],
+   "impact": 3,
+   "afecteazaDirect": false,
+   "riscEscaladare": false,
+   "veridicitate": "confirmat",
+   "stare": "de urmărit",
+   "surse": [
+    "s4650986704",
+    "see0a1f5f4f",
+    "s4d1034a096"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Al-Sabiha, Lahj, Yemen",
+    "coord": [
+     44.73,
+     13.02
+    ],
+    "precizie": "aproximativ",
+    "inAfaraHartii": true
+   },
+   "raport": "2026-11-08T20:22",
+   "istoric": [],
+   "zona": "Z2",
+   "ajustare": -1,
+   "criticitate": 2
+  },
+  {
+   "id": "ir-20261108-ciocnire-de-trenuri-la-al-ayya",
+   "regiune": "Iran",
+   "fir": "Egipt: Accident feroviar",
+   "data": "2026-11-08",
+   "titlu": "Ciocnire de trenuri la Al-Ayyat, Giza: 7 morți, 140 răniți",
+   "rezumat": "Două trenuri s-au ciocnit la Al-Ayyat în provincia Giza, soldate cu 7 morți și 140 de răniți, potrivit Ministerului Sănătății egiptean confirmat de Anadolu Agency și OSINT. Ministerul Sănătății a ordonat o investigație urgentă.",
+   "domenii": [
+    "politic"
+   ],
+   "impact": 2,
+   "afecteazaDirect": false,
+   "riscEscaladare": false,
+   "veridicitate": "confirmat",
+   "stare": "încheiat",
+   "surse": [
+    "s6dab3f1fd0",
+    "sf5a5564c0e"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Al-Ayyat, Giza, Egipt",
+    "coord": [
+     31.24,
+     29.87
+    ],
+    "precizie": "aproximativ"
+   },
+   "raport": "2026-11-08T20:22",
+   "istoric": [],
+   "zona": "Z4",
+   "ajustare": -2,
+   "criticitate": 1
   }
  ],
  "regiuni": {
