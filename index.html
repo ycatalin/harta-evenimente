@@ -151,7 +151,7 @@ footer { font-size: 12.5px; color: var(--muted); }
       <div class="fgroup"><span class="flabel">Regiune</span><div class="seg" id="f-region"></div></div>
       <div class="fgroup"><span class="flabel">Perioadă</span><div class="seg" id="f-range"></div></div>
       <div class="fgroup"><span class="flabel">Criticitate</span><div class="seg" id="f-crit"></div></div>
-      <div class="fgroup"><label class="flabel" for="f-fir">Fir</label><select id="f-fir"></select></div>
+      <div class="fgroup"><label class="flabel" for="f-fir">Subiect</label><select id="f-fir"></select></div>
     </div>
     <div class="frow">
       <div class="fgroup" id="f-dom"><span class="flabel">Domenii</span></div>
@@ -321,7 +321,7 @@ function renderFilters() {
   chips($("#f-ver"), VER, state.ver, x => VCOL[x.id], x => `${x.glyph} ${x.name}`);
   const firs = [...new Set((DATA?.evenimente || []).filter(e => e.regiune === state.region).map(e => e.fir))];
   if (state.fir !== "toate" && !firs.includes(state.fir)) state.fir = "toate";
-  $("#f-fir").innerHTML = `<option value="toate">Toate firele</option>` + firs.map(f => `<option ${f === state.fir ? "selected" : ""} value="${esc(f)}">${esc(f)}</option>`).join("");
+  $("#f-fir").innerHTML = `<option value="toate">Toate subiectele</option>` + firs.map(f => `<option ${f === state.fir ? "selected" : ""} value="${esc(f)}">${esc(f)}</option>`).join("");
 }
 $("#f-fir").onchange = e => { state.fir = e.target.value; state.sel = null; render(); };
 $("#reset").onclick = () => { Object.assign(state, { range: "7", minCrit: 1, fir: "toate", sel: null }); state.domains = new Set(DOMAINS.map(d => d.id)); state.ver = new Set(VER.map(v => v.id)); state.zones = new Set(["Z0","Z1","Z2","Z3","Z4","none"]); render(); };
@@ -556,7 +556,7 @@ function renderStats(list) {
   const high = list.filter(e => e.criticitate >= 4).length;
   const unc = list.filter(e => e.veridicitate === "neconfirmat").length;
   const part = list.filter(e => e.veridicitate === "partial").length;
-  $("#stats").innerHTML = `<span><b>${list.length}</b> evenimente</span><span><b>${firs}</b> fire</span><span><b>${high}</b> cu criticitate 4–5</span><span><b>${part}</b> parțial confirmate</span><span><b>${unc}</b> neconfirmate</span>`;
+  $("#stats").innerHTML = `<span><b>${list.length}</b> evenimente</span><span><b>${firs}</b> subiecte</span><span><b>${high}</b> cu criticitate 4–5</span><span><b>${part}</b> parțial confirmate</span><span><b>${unc}</b> neconfirmate</span>`;
 }
 
 function renderMethod() {
