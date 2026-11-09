@@ -1308,7 +1308,7 @@
    "raport": "2026-11-08T20:22",
    "istoric": [],
    "zona": "Z0",
-   "ajustare": 2,
+   "ajustare": 1,
    "criticitate": 5
   },
   {
@@ -1356,7 +1356,7 @@
     }
    ],
    "zona": "Z0",
-   "ajustare": 2,
+   "ajustare": 1,
    "criticitate": 5
   },
   {
@@ -1425,7 +1425,7 @@
    "raport": "2026-11-08T20:22",
    "istoric": [],
    "zona": "Z0",
-   "ajustare": 2,
+   "ajustare": 1,
    "criticitate": 5
   },
   {
@@ -1562,7 +1562,8 @@
     "s0c6a214b48",
     "s0a7976bb93",
     "s67f7d7af56",
-    "sc77584aa8d"
+    "sc77584aa8d",
+    "seaa1f64222"
    ],
    "loc": {
     "tip": "punct",
@@ -1582,6 +1583,11 @@
       "stare: de urmărit → în desfășurare",
       "verificare: neconfirmat → probabil"
      ]
+    },
+    {
+     "raport": "2026-11-09T08:17",
+     "nota": "Relatat din nou: A patra petrolieră lovită de mină în Strâmtoarea Hormuz",
+     "schimbari": []
     }
    ],
    "zona": "Z1",
@@ -2000,40 +2006,6 @@
    "criticitate": 2
   },
   {
-   "id": "ir-20261108-ciocnire-de-trenuri-la-al-ayya",
-   "regiune": "Iran",
-   "fir": "Egipt: Accident feroviar",
-   "data": "2026-11-08",
-   "titlu": "Ciocnire de trenuri la Al-Ayyat, Giza: 7 morți, 140 răniți",
-   "rezumat": "Două trenuri s-au ciocnit la Al-Ayyat în provincia Giza, soldate cu 7 morți și 140 de răniți, potrivit Ministerului Sănătății egiptean confirmat de Anadolu Agency și OSINT. Ministerul Sănătății a ordonat o investigație urgentă.",
-   "domenii": [
-    "politic"
-   ],
-   "impact": 2,
-   "afecteazaDirect": false,
-   "riscEscaladare": false,
-   "veridicitate": "confirmat",
-   "stare": "încheiat",
-   "surse": [
-    "s6dab3f1fd0",
-    "sf5a5564c0e"
-   ],
-   "loc": {
-    "tip": "punct",
-    "nume": "Al-Ayyat, Giza, Egipt",
-    "coord": [
-     31.24,
-     29.87
-    ],
-    "precizie": "aproximativ"
-   },
-   "raport": "2026-11-08T20:22",
-   "istoric": [],
-   "zona": "Z4",
-   "ajustare": -2,
-   "criticitate": 1
-  },
-  {
    "id": "ir-20261108-centcom-confirma-atac-aerian-a",
    "regiune": "Iran",
    "fir": "Iran – SUA: Negocieri și ultimatum",
@@ -2068,7 +2040,7 @@
    "raport": "2026-11-09T08:17",
    "istoric": [],
    "zona": "Z0",
-   "ajustare": 2,
+   "ajustare": 1,
    "criticitate": 5
   },
   {
@@ -2106,7 +2078,7 @@
    "raport": "2026-11-09T08:17",
    "istoric": [],
    "zona": "Z0",
-   "ajustare": 2,
+   "ajustare": 1,
    "criticitate": 5
   },
   {
@@ -2170,8 +2142,8 @@
    "raport": "2026-11-09T08:17",
    "istoric": [],
    "zona": "Z0",
-   "ajustare": 2,
-   "criticitate": 5
+   "ajustare": 1,
+   "criticitate": 4
   },
   {
    "id": "ir-20261108-centcom-transmite-israelului-m",
@@ -2203,43 +2175,6 @@
    "raport": "2026-11-09T08:17",
    "istoric": [],
    "zona": "Z2",
-   "ajustare": 1,
-   "criticitate": 5
-  },
-  {
-   "id": "ir-20261108-a-patra-petroliera-lovita-de-m",
-   "regiune": "Iran",
-   "fir": "Strâmtoarea Hormuz: Escaladare tactică",
-   "data": "2026-11-08",
-   "titlu": "A patra petrolieră lovită de mină în Strâmtoarea Hormuz",
-   "rezumat": "IRGC Navy a confirmat că o a patra petrolieră a lovit o mină pe rută neautorizată în Strâmtoarea Hormuz, potrivit IRNA și TASS. Brigadier General Mohebbi a declarat că Hormuzul este „sub control naval iranian deplin\" și că navele neconforme riscă să lovească mine.",
-   "domenii": [
-    "militar",
-    "economic"
-   ],
-   "impact": 4,
-   "afecteazaDirect": true,
-   "riscEscaladare": true,
-   "veridicitate": "probabil",
-   "stare": "în desfășurare",
-   "surse": [
-    "s0a7976bb93",
-    "seaa1f64222",
-    "s67f7d7af56",
-    "sc77584aa8d"
-   ],
-   "loc": {
-    "tip": "punct",
-    "nume": "Strâmtoarea Hormuz (sector estic)",
-    "coord": [
-     56.5,
-     26.5
-    ],
-    "precizie": "aproximativ"
-   },
-   "raport": "2026-11-09T08:17",
-   "istoric": [],
-   "zona": "Z1",
    "ajustare": 1,
    "criticitate": 5
   },
@@ -2356,7 +2291,7 @@
    "raport": "2026-11-09T08:17",
    "istoric": [],
    "zona": "Z0",
-   "ajustare": 2,
+   "ajustare": 1,
    "criticitate": 5
   },
   {
@@ -2756,40 +2691,6 @@
    "zona": "Z2",
    "ajustare": 0,
    "criticitate": 3
-  },
-  {
-   "id": "ir-20261108-accident-de-tren-la-al-ayyat-e",
-   "regiune": "Iran",
-   "fir": "Egipt: Accident feroviar",
-   "data": "2026-11-08",
-   "titlu": "Accident de tren la Al-Ayyat, Egipt: 7 morți și zeci de răniți",
-   "rezumat": "Un accident de tren la Al-Ayyat, Egipt, a provocat 7 morți și între 64 și 150 de răniți, potrivit rapoartelor contradictorii ale Press TV și Jewish News 24. Bilanțul exact rămâne neclar din cauza discrepanțelor între surse.",
-   "domenii": [
-    "economic"
-   ],
-   "impact": 2,
-   "afecteazaDirect": false,
-   "riscEscaladare": false,
-   "veridicitate": "partial",
-   "stare": "nou",
-   "surse": [
-    "s63d2f345a8",
-    "s7cb783afc7"
-   ],
-   "loc": {
-    "tip": "punct",
-    "nume": "Al-Ayyat, Egipt",
-    "coord": [
-     31.25,
-     29.67
-    ],
-    "precizie": "aproximativ"
-   },
-   "raport": "2026-11-09T08:17",
-   "istoric": [],
-   "zona": "Z4",
-   "ajustare": -2,
-   "criticitate": 1
   }
  ],
  "regiuni": {
