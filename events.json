@@ -1,6 +1,6 @@
 {
  "meta": {
-  "ultimulRaport": "2026-11-09T20:18",
+  "ultimulRaport": "2026-11-09T20:22",
   "rapoarte": [
    {
     "regiune": "România",
@@ -36,6 +36,13 @@
     "fisier": "2026-11-09_2018.txt",
     "noi": 19,
     "actualizari": 3
+   },
+   {
+    "regiune": "România",
+    "ora": "2026-11-09T20:22",
+    "fisier": "romania_2026-11-09_2022.txt",
+    "noi": 4,
+    "actualizari": 2
    }
   ],
   "nota": "Evenimente extrase automat din rapoartele de 12 ore; etichetele sunt verificate editorial periodic."
@@ -1420,6 +1427,60 @@
    "tabara": "Occidental (estimat)",
    "orientare": "",
    "url": "https://t.me/me_observer_TG/1128977"
+  },
+  "s9cfb5ef4ae": {
+   "nume": "OSINT",
+   "tabara": "Occidental",
+   "orientare": "",
+   "url": "https://t.me/OSINTLive/590519"
+  },
+  "sa90641f7ee": {
+   "nume": "Sputnik Moldova 2.0",
+   "tabara": "Rus oficial",
+   "orientare": "",
+   "url": "https://t.me/sputnikmd_2/37774"
+  },
+  "s5825ed5116": {
+   "nume": "Node of Time DE",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/node_of_time_DE/45907"
+  },
+  "see42634b7e": {
+   "nume": "Node of Time EN",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/node_of_time_en/34842"
+  },
+  "s9fd4c3ace7": {
+   "nume": "/CIG/ Telegram | Counter Intelligence Global",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/CIG_telegram/86960"
+  },
+  "sf2520bdc5c": {
+   "nume": "/CIG/ Telegram | Counter Intelligence Global",
+   "tabara": "Occidental (estimat)",
+   "orientare": "",
+   "url": "https://t.me/CIG_telegram/86961"
+  },
+  "s4279c776dc": {
+   "nume": "Sputnik Moldova 2.0",
+   "tabara": "Rus oficial",
+   "orientare": "",
+   "url": "https://t.me/sputnikmd_2/37791"
+  },
+  "s8cbcdca153": {
+   "nume": "Sputnik Moldova 2.0",
+   "tabara": "Rus oficial",
+   "orientare": "",
+   "url": "https://t.me/sputnikmd_2/37747"
+  },
+  "s2a6e2afb17": {
+   "nume": "Новая газета Европа",
+   "tabara": "Rus critic (estimat)",
+   "orientare": "",
+   "url": "https://t.me/novaya_europe/69471"
   }
  },
  "evenimente": [
@@ -1651,7 +1712,9 @@
    "surse": [
     "s5",
     "s6",
-    "s9c0e473789"
+    "s9c0e473789",
+    "s8cbcdca153",
+    "s2a6e2afb17"
    ],
    "loc": {
     "tip": "punct",
@@ -1670,6 +1733,11 @@
      "schimbari": [
       "stare: nou → de urmărit"
      ]
+    },
+    {
+     "raport": "2026-11-09T20:22",
+     "nota": "Sputnik Moldova 2.0 confirmă anunțul oficial al liniilor Bălți–Suceava și Strășeni–Gutinaș; calendarul și finanțarea rămân neconfirmate.",
+     "schimbari": []
     }
    ],
    "impact": 2,
@@ -1752,6 +1820,11 @@
      "schimbari": [
       "stare: fără evoluție → în desfășurare"
      ]
+    },
+    {
+     "raport": "2026-11-09T20:22",
+     "nota": "Nicio informație nouă despre ancheta de la Varna în acest interval; vizita Von der Leyen nu a adus detalii despre atribuirea responsabilității pentru atacul din 15 octombrie.",
+     "schimbari": []
     }
    ],
    "impact": 3,
@@ -4006,6 +4079,146 @@
    "zona": "Z2",
    "ajustare": -1,
    "criticitate": 2
+  },
+  {
+   "id": "rom-20261109-von-der-leyen-viziteaza-romani",
+   "regiune": "România",
+   "fir": "Securitate maritimă (Marea Neagră)",
+   "data": "2026-11-09",
+   "titlu": "Von der Leyen vizitează România și Bulgaria pentru securitatea Mării Negre",
+   "rezumat": "Ursula von der Leyen a anunțat și a început o vizită în România și Bulgaria pentru a discuta escaladarea amenințărilor la securitate și atacurile asupra navelor civile în Marea Neagră. Von der Leyen a declarat că „atacurile se intensifică\" și a reiterat sprijinul pentru un armistițiu care să acopere infrastructura alimentară și energetică, potrivit postării sale oficiale preluate de OSINT și Sputnik Moldova 2.0. Detaliile programului și măsurile concrete anunțate nu au apărut în interval.",
+   "domenii": [
+    "politic",
+    "militar"
+   ],
+   "impact": 3,
+   "afecteazaDirect": true,
+   "riscEscaladare": false,
+   "veridicitate": "confirmat",
+   "stare": "de urmărit",
+   "surse": [
+    "s9cfb5ef4ae",
+    "sa90641f7ee"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "București",
+    "coord": [
+     26.1,
+     44.44
+    ],
+    "precizie": "aproximativ"
+   },
+   "raport": "2026-11-09T20:22",
+   "istoric": [],
+   "zona": "Z0",
+   "ajustare": 1,
+   "criticitate": 4
+  },
+  {
+   "id": "rom-20261109-popsoi-integrarea-infrastructu",
+   "regiune": "România",
+   "fir": "Energie și relații regionale",
+   "data": "2026-11-09",
+   "titlu": "Popșoi: integrarea infrastructurală Moldova–România este deja în desfășurare",
+   "rezumat": "Ministrul de externe al Moldovei, Mihai Popșoi, a declarat la TVR Info că apropierea Moldovei de România a trecut de la discuții politice la măsuri concrete: autostrada Uniunii, poduri noi peste Prut, interconexiunea energetică. Popșoi a precizat că unificarea politică rămâne condiționată de sprijin democratic larg, fără a indica un calendar, potrivit Node of Time DE și EN.",
+   "domenii": [
+    "politic",
+    "economic",
+    "energie"
+   ],
+   "impact": 3,
+   "afecteazaDirect": true,
+   "riscEscaladare": false,
+   "veridicitate": "confirmat",
+   "stare": "nou",
+   "surse": [
+    "s5825ed5116",
+    "see42634b7e"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Chișinău (declarație la TVR Info)",
+    "coord": [
+     28.86,
+     47.01
+    ],
+    "precizie": "exact"
+   },
+   "raport": "2026-11-09T20:22",
+   "istoric": [],
+   "zona": "Z1",
+   "ajustare": 0,
+   "criticitate": 3
+  },
+  {
+   "id": "rom-20261109-criza-energetica-severa-in-rom",
+   "regiune": "România",
+   "fir": "Energie și relații regionale",
+   "data": "2026-11-09",
+   "titlu": "Criză energetică severă în România afectează rolul de hub regional",
+   "rezumat": "România se confruntă cu o criză energetică de doi ani, agravată în 2026 de seceta istorică în bazinul Dunării, care a redus producția hidro la Porțile de Fier I și II și a dus la oprirea Cernavodă din lipsă de apă de răcire, cu prețuri printre cele mai ridicate din UE, potrivit /CIG/. Situația ridică semne de întrebare privind capacitatea României de a furniza energie stabilă Moldovei după conectarea la rețeaua românească.",
+   "domenii": [
+    "energie",
+    "economic"
+   ],
+   "impact": 3,
+   "afecteazaDirect": true,
+   "riscEscaladare": false,
+   "veridicitate": "confirmat",
+   "stare": "în desfășurare",
+   "surse": [
+    "s9fd4c3ace7",
+    "sf2520bdc5c"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "România",
+    "coord": [
+     25.0,
+     45.5
+    ],
+    "precizie": "aproximativ"
+   },
+   "raport": "2026-11-09T20:22",
+   "istoric": [],
+   "zona": "Z0",
+   "ajustare": 1,
+   "criticitate": 4
+  },
+  {
+   "id": "rom-20261109-instanta-bucuresti-schimba-are",
+   "regiune": "România",
+   "fir": "Politică internă cu impact extern",
+   "data": "2026-11-09",
+   "titlu": "Instanță București schimbă arestul preventiv al lui Călin Georgescu în arest la domiciliu",
+   "rezumat": "O instanță din București a schimbat măsura preventivă a lui Călin Georgescu din arest preventiv în arest la domiciliu. DIICOT intenționează să atace decizia, iar Georgescu rămâne în arest preventiv până la soluționarea apelului, potrivit Agerpres citat de Sputnik Moldova 2.0.",
+   "domenii": [
+    "juridic",
+    "politic"
+   ],
+   "impact": 2,
+   "afecteazaDirect": true,
+   "riscEscaladare": false,
+   "veridicitate": "confirmat",
+   "stare": "de urmărit",
+   "surse": [
+    "s4279c776dc"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "București",
+    "coord": [
+     26.1,
+     44.44
+    ],
+    "precizie": "exact"
+   },
+   "raport": "2026-11-09T20:22",
+   "istoric": [],
+   "zona": "Z0",
+   "ajustare": 1,
+   "criticitate": 3
   }
  ],
  "regiuni": {
