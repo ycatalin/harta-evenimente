@@ -8,9 +8,16 @@
     "fisier": "romania_2026-11-09_0819.txt",
     "noi": 9,
     "actualizari": 0
+   },
+   {
+    "regiune": "Iran",
+    "ora": "2026-11-08T20:22",
+    "fisier": "2026-11-08_2022.txt",
+    "noi": 0,
+    "actualizari": 0
    }
   ],
-  "nota": "Evenimente extrase din rapoartele de 12 ore; etichetele sunt verificate editorial periodic."
+  "nota": "Evenimente extrase automat din rapoartele de 12 ore; etichetele sunt verificate editorial periodic."
  },
  "surse": {
   "s1": {
