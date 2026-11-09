@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Harta evenimentelor România–Iran</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: o bandă de filtre lipicioasă, apoi trei vederi ale acelorași date (cronologie pe culoare, matrice domeniu × criticitate, fișe). */
+:root {
+  --bg: #eef1f5; --surface: #ffffff; --ink: #14213a; --muted: #5a6478; --line: #d6dce6; --accent: #8f6b10; --chip: #e4e9f0;
+  --d-energie: #b06d12; --d-economic: #2e7d55; --d-militar: #c0392b; --d-politic: #2a63aa; --d-juridic: #6b46c1; --d-info: #23797a;
+  --ok: #2e7d55; --warn: #b06d12; --bad: #c0392b;
+  --f-display: "Newsreader", Georgia, "Times New Roman", serif;
+  --f-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f182b; --surface: #16223d; --ink: #ece6d6; --muted: #9ba7bf; --line: #2a3a5c; --accent: #d6b04a; --chip: #213153;
+  --d-energie: #e8b04e; --d-economic: #6cc79a; --d-militar: #f08074; --d-politic: #7fb0f0; --d-juridic: #b59df3; --d-info: #5fc6c6;
+  --ok: #6cc79a; --warn: #e8b04e; --bad: #f08074; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #0f182b; --surface: #16223d; --ink: #ece6d6; --muted: #9ba7bf; --line: #2a3a5c; --accent: #d6b04a; --chip: #213153;
+  --d-energie: #e8b04e; --d-economic: #6cc79a; --d-militar: #f08074; --d-politic: #7fb0f0; --d-juridic: #b59df3; --d-info: #5fc6c6;
+  --ok: #6cc79a; --warn: #e8b04e; --bad: #f08074; color-scheme: dark; }
+
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.55 var(--f-body); }
+.wrap { max-width: 1120px; margin: 0 auto; padding-block: 28px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 22px; }
+header.top { display: grid; gap: 6px; }
+.eyebrow { font: 500 12px/1 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+h1 { font: 700 clamp(28px, 4.2vw, 42px)/1.1 var(--f-display); margin: 0; text-wrap: balance; }
+.lede { color: var(--muted); max-width: 68ch; margin: 0; }
+.stats { display: flex; flex-wrap: wrap; gap: 8px 22px; font: 500 13px/1.4 var(--f-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.stats b { color: var(--ink); font-size: 15px; }
+
+/* Filtre */
+.filters { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; display: grid; gap: 10px; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.frow { display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; }
+.fgroup { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; min-width: 0; }
+.flabel { font: 500 11px/1 var(--f-mono); letter-spacing: .07em; text-transform: uppercase; color: var(--muted); margin-right: 2px; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 7px; overflow: hidden; }
+.seg button { border: 0; background: transparent; color: var(--ink); font: 500 13px/1 var(--f-body); padding: 7px 11px; cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.chip { --c: var(--muted); display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--line); background: transparent; color: var(--ink); border-radius: 999px; padding: 5px 10px; font: 500 12.5px/1 var(--f-body); cursor: pointer; }
+.chip .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--c); }
+.chip[aria-pressed="false"] { opacity: .45; }
+.chip[aria-pressed="false"] .dot { background: transparent; box-shadow: inset 0 0 0 1.5px var(--c); }
+select { font: 500 13px var(--f-body); color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 7px; padding: 6px 8px; max-width: 100%; }
+.reset { margin-left: auto; border: 0; background: none; color: var(--accent); font: 600 13px var(--f-body); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+button:focus-visible, select:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* Vederi */
+.tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line); }
+.tabs a { padding: 9px 14px; color: var(--muted); text-decoration: none; font: 600 14px var(--f-body); border-bottom: 2px solid transparent; margin-bottom: -1px; }
+.tabs a[aria-current="page"] { color: var(--ink); border-color: var(--accent); }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; min-width: 0; }
+.scroll { overflow-x: auto; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 12.5px; color: var(--muted); margin-top: 10px; align-items: center; }
+.legend svg { vertical-align: middle; }
+.note { font-size: 13px; color: var(--muted); margin: 10px 0 0; }
+.empty { padding: 40px 12px; text-align: center; color: var(--muted); }
+.empty strong { display: block; color: var(--ink); font: 600 18px var(--f-display); margin-bottom: 4px; }
+
+svg text { font-family: var(--f-body); }
+.tl-dot { cursor: pointer; }
+.tl-dot:focus { outline: none; }
+.tl-dot:focus-visible circle, .tl-dot.sel circle { stroke: var(--ink); stroke-width: 3; }
+
+/* Hartă */
+:root { --sea: #dfe7f0; --land: #f7f8fa; --focus: #f1e6c8; --border: #b9c3d2; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --sea: #0b1324; --land: #1d2a47; --focus: #3a3a2c; --border: #3a4c72; } }
+:root[data-theme="dark"] { --sea: #0b1324; --land: #1d2a47; --focus: #3a3a2c; --border: #3a4c72; }
+.mapbox { position: relative; border-radius: 8px; overflow: hidden; background: var(--sea); }
+.mapbox svg { display: block; width: 100%; height: auto; }
+.mk { cursor: pointer; }
+.mk:focus { outline: none; }
+.mk:focus-visible .m-main, .mk.sel .m-main { stroke: var(--ink); stroke-width: 3; }
+.map-empty { position: absolute; inset: auto 12px 12px 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; font-size: 13px; color: var(--muted); }
+.map-empty strong { color: var(--ink); }
+
+/* Matrice */
+.matrix { display: grid; grid-template-columns: 150px repeat(5, minmax(120px, 1fr)); gap: 4px; min-width: 780px; }
+.mh { font: 500 11px/1.3 var(--f-mono); letter-spacing: .05em; text-transform: uppercase; color: var(--muted); padding: 6px 8px; }
+.mrow { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 13px; padding: 8px; }
+.mrow .dot { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+.mcell { background: var(--bg); border-radius: 6px; padding: 6px; display: flex; flex-direction: column; gap: 5px; min-height: 52px; }
+.mcell.hot { background: color-mix(in srgb, var(--bad) 10%, var(--bg)); }
+.mchip { text-align: left; border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 6px; padding: 5px 7px; font: 500 12px/1.3 var(--f-body); cursor: pointer; }
+.mchip:hover { border-color: var(--muted); }
+
+/* Fișe */
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 330px), 1fr)); gap: 12px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: grid; gap: 8px; align-content: start; min-width: 0; }
+.card.sel { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+.cmeta { display: flex; justify-content: space-between; gap: 10px; align-items: center; font: 500 12px var(--f-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.card h3 { font: 600 18px/1.25 var(--f-display); margin: 0; text-wrap: balance; }
+.card p { margin: 0; font-size: 14px; }
+.fir { font-size: 12.5px; color: var(--muted); }
+.tags { display: flex; flex-wrap: wrap; gap: 5px; }
+.tag { --c: var(--muted); display: inline-flex; align-items: center; gap: 5px; font: 500 11.5px/1 var(--f-body); padding: 4px 8px; border-radius: 999px; background: var(--chip); color: var(--ink); }
+.tag .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--c); }
+.pill { font: 600 11px/1 var(--f-mono); letter-spacing: .04em; text-transform: uppercase; padding: 4px 7px; border-radius: 5px; border: 1px solid currentColor; }
+.v-confirmat { color: var(--ok); } .v-probabil { color: var(--accent); } .v-partial { color: var(--warn); } .v-neconfirmat { color: var(--bad); } .v-dezmintit { color: var(--bad); text-decoration: line-through; } .v-observatie { color: var(--muted); }
+.hist { font-size: 12.5px; color: var(--muted); border-top: 1px dashed var(--line); padding-top: 6px; display: grid; gap: 3px; }
+.hist b { color: var(--ink); font-weight: 600; font-family: var(--f-mono); font-size: 11.5px; }
+.meter { display: inline-flex; gap: 2px; align-items: center; }
+.meter i { width: 7px; height: 12px; border-radius: 1px; background: var(--line); }
+.meter i.on { background: var(--sev); }
+.srcs { font-size: 12.5px; color: var(--muted); display: grid; gap: 2px; }
+.srcs a { color: var(--ink); }
+.srcs span.tb { font: 500 11px var(--f-mono); color: var(--muted); }
+.detail { margin-top: 14px; }
+.toolbar { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
+
+/* Metodologie */
+details.method { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; }
+details.method summary { cursor: pointer; font: 600 16px var(--f-display); }
+.mgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 18px; margin-top: 12px; }
+.mgrid h4 { margin: 0 0 6px; font: 500 11px var(--f-mono); letter-spacing: .07em; text-transform: uppercase; color: var(--muted); }
+.rubric { display: grid; gap: 6px; font-size: 13.5px; }
+.rubric div { display: grid; grid-template-columns: auto 1fr; gap: 10px; align-items: start; }
+footer { font-size: 12.5px; color: var(--muted); }
+@media (max-width: 720px) { .filters { position: static; } }
+@media (max-width: 560px) { .reset { margin-left: 0; } .matrix { grid-template-columns: 120px repeat(5, minmax(110px, 1fr)); } }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+<style>html{color-scheme:light}body{margin:0}img{max-width:100%}[hidden]{display:none!important}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="top">
+    <div class="eyebrow" id="eyebrow">România prin ochii celorlalți</div>
+    <h1>Harta evenimentelor</h1>
+    <p class="lede">Fiecare eveniment din rapoarte primește etichete: domeniu, criticitate pe o scală de la 1 la 5, grad de verificare și tabăra surselor. Filtrează după perioadă, domeniu sau criticitate și urmărește cum evoluează firele în timp.</p>
+    <div class="stats" id="stats" aria-live="polite"></div>
+  </header>
+
+  <section class="filters" aria-label="Filtre">
+    <div class="frow">
+      <div class="fgroup"><span class="flabel">Regiune</span><div class="seg" id="f-region"></div></div>
+      <div class="fgroup"><span class="flabel">Perioadă</span><div class="seg" id="f-range"></div></div>
+      <div class="fgroup"><span class="flabel">Criticitate</span><div class="seg" id="f-crit"></div></div>
+      <div class="fgroup"><label class="flabel" for="f-fir">Fir</label><select id="f-fir"></select></div>
+    </div>
+    <div class="frow">
+      <div class="fgroup" id="f-dom"><span class="flabel">Domenii</span></div>
+    </div>
+    <div class="frow">
+      <div class="fgroup" id="f-ver"><span class="flabel">Verificare</span></div>
+      <button class="reset" id="reset" type="button">Resetează filtrele</button>
+    </div>
+  </section>
+
+  <nav class="tabs" aria-label="Vederi">
+    <a href="#cronologie" data-view="cronologie">Cronologie</a>
+    <a href="#harta" data-view="harta">Hartă</a>
+    <a href="#matrice" data-view="matrice">Matrice</a>
+    <a href="#fise" data-view="fise">Fișe</a>
+  </nav>
+
+  <section id="view-cronologie" class="panel">
+    <div class="scroll" id="tl"></div>
+    <div class="legend" id="tl-legend"></div>
+    <p class="note" id="tl-note"></p>
+    <div class="detail" id="detail"></div>
+  </section>
+
+  <section id="view-harta" class="panel" hidden>
+    <div id="map" class="mapbox"></div>
+    <div class="legend" id="map-legend"></div>
+    <p class="note" id="map-note"></p>
+    <div class="detail" id="detail-h"></div>
+  </section>
+
+  <section id="view-matrice" class="panel" hidden>
+    <div class="scroll"><div class="matrix" id="matrix"></div></div>
+    <p class="note">Rânduri: domenii. Coloane: criticitate. Un eveniment care ține de mai multe domenii apare pe fiecare rând. Celulele cu criticitate 4–5 sunt evidențiate.</p>
+    <div class="detail" id="detail-m"></div>
+  </section>
+
+  <section id="view-fise" hidden>
+    <div class="toolbar">
+      <div class="fgroup"><span class="flabel">Ordonează</span><div class="seg" id="f-sort"></div></div>
+      <span class="note" id="count-f" style="margin:0"></span>
+    </div>
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <details class="method">
+    <summary>Metodologie și criterii de etichetare</summary>
+    <div class="mgrid">
+      <div>
+        <h4>Criticitate</h4>
+        <div class="rubric" id="rub-crit"></div>
+      </div>
+      <div>
+        <h4>Grad de verificare</h4>
+        <div class="rubric" id="rub-ver"></div>
+        <h4 style="margin-top:16px">Domenii</h4>
+        <div class="rubric" id="rub-dom"></div>
+      </div>
+    </div>
+  </details>
+
+  <footer id="foot"></footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const DOMAINS = [
+  { id: "energie",  name: "Energie",               desc: "Producție, transport și aprovizionare cu energie." },
+  { id: "economic", name: "Economic",              desc: "Comerț, investiții, prețuri, finanțare." },
+  { id: "militar",  name: "Militar și securitate", desc: "Atacuri, apărare, securitate maritimă și a frontierelor." },
+  { id: "politic",  name: "Politic și diplomatic", desc: "Declarații oficiale, relații între state, UE și NATO." },
+  { id: "juridic",  name: "Juridic și anchete",    desc: "Anchete, procese, sancțiuni, decizii judiciare." },
+  { id: "info",     name: "Informațional",         desc: "Narative, propagandă, absența sau prezența reacțiilor." }
+];
+const CRIT = [
+  { n: 1, name: "Informativ", desc: "Context de fond, fără efect direct." },
+  { n: 2, name: "Scăzut",     desc: "Efect limitat, local sau reversibil; anunțuri fără calendar." },
+  { n: 3, name: "Moderat",    desc: "Efect regional sau pe un sector; poate schimba evoluția unui fir." },
+  { n: 4, name: "Ridicat",    desc: "Efect strategic asupra unui stat sau sector; pierderi de vieți ori decizii greu reversibile." },
+  { n: 5, name: "Critic",     desc: "Risc imediat de escaladare care implică mai multe state sau are efect sistemic." }
+];
+const VER = [
+  { id: "confirmat",   name: "Confirmat",   glyph: "✓", desc: "Surse independente din tabere diferite sau confirmare oficială." },
+  { id: "probabil",    name: "Probabil",    glyph: "≈", desc: "Surse credibile, fără confirmare independentă." },
+  { id: "partial",     name: "Parțial",     glyph: "±", desc: "Faptul de bază e confirmat; detaliile importante nu." },
+  { id: "neconfirmat", name: "Neconfirmat", glyph: "×", desc: "O singură sursă, surse dintr-o singură tabără sau o declarație politică." },
+  { id: "dezmintit",   name: "Dezmințit",   glyph: "Ø", desc: "Infirmat oficial sau de dovezi." },
+  { id: "observatie",  name: "Observație",  glyph: "○", desc: "Constatare editorială, de exemplu lipsa unei reacții." }
+];
+const VCOL = { confirmat: "var(--ok)", probabil: "var(--accent)", partial: "var(--warn)", neconfirmat: "var(--bad)", dezmintit: "var(--bad)", observatie: "var(--muted)" };
+const vfill = (v, c) => v === "confirmat" ? c : v === "probabil" ? `color-mix(in srgb, ${c} 70%, var(--surface))` : v === "partial" ? `color-mix(in srgb, ${c} 40%, var(--surface))` : "var(--surface)";
+const vdash = v => v === "neconfirmat" ? `stroke-dasharray="3 2"` : v === "observatie" ? `stroke-dasharray="1 2"` : v === "dezmintit" ? `stroke-dasharray="6 2 1 2"` : "";
+const RANGES = [ { id: "2", name: "2 zile", days: 2 }, { id: "7", name: "7 zile", days: 7 }, { id: "30", name: "30 zile", days: 30 }, { id: "tot", name: "Tot", days: null } ];
+const REGIONS = [ { id: "România", series: "România prin ochii celorlalți" }, { id: "Iran", series: "Iranul dincolo de Cyrus, jocul de șah și vinul Shiraz" } ];
+const MONTHS = ["ian","feb","mar","apr","mai","iun","iul","aug","sep","oct","nov","dec"];
+const DAY = 86400000;
+
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+const dcol = id => `var(--d-${id})`;
+const dname = id => (DOMAINS.find(d => d.id === id) || {}).name || id;
+const vinfo = id => VER.find(v => v.id === id) || VER[5];
+const sevColor = n => n >= 4 ? "var(--bad)" : n === 3 ? "var(--warn)" : "var(--muted)";
+const parseDay = s => { const [y,m,d] = s.split("-").map(Number); return Date.UTC(y, m-1, d); };
+const fmtDay = t => { const d = new Date(t); return `${d.getUTCDate()} ${MONTHS[d.getUTCMonth()]}`; };
+const fmtFull = s => { if (!s) return "dată nespecificată"; const d = new Date(parseDay(s)); return `${String(d.getUTCDate()).padStart(2,"0")}.${String(d.getUTCMonth()+1).padStart(2,"0")}.${d.getUTCFullYear()}`; };
+
+let DATA = null, NOW_DAY = 0;
+const state = { region: "România", range: "7", minCrit: 1, fir: "toate", domains: new Set(DOMAINS.map(d => d.id)), ver: new Set(VER.map(v => v.id)), view: "cronologie", sort: "data", sel: null };
+
+function filtered() {
+  if (!DATA) return [];
+  const r = RANGES.find(x => x.id === state.range);
+  const start = r.days ? NOW_DAY - (r.days - 1) * DAY : -Infinity;
+  return DATA.evenimente.filter(e =>
+    e.regiune === state.region &&
+    e.domenii.some(d => state.domains.has(d)) &&
+    e.criticitate >= state.minCrit &&
+    state.ver.has(e.veridicitate) &&
+    (state.fir === "toate" || e.fir === state.fir) &&
+    (r.days ? (e.data && parseDay(e.data) >= start) : true)
+  );
+}
+
+/* ---------- Filtre ---------- */
+function seg(el, items, key, label = x => x.name, val = x => x.id) {
+  el.innerHTML = items.map(x => `<button type="button" aria-pressed="${String(val(x)) === String(state[key])}" data-v="${esc(val(x))}">${esc(label(x))}</button>`).join("");
+  el.onclick = ev => { const b = ev.target.closest("button"); if (!b) return; state[key] = key === "minCrit" ? Number(b.dataset.v) : b.dataset.v; state.sel = null; render(); };
+}
+function chips(el, items, set, colorOf, label) {
+  el.querySelectorAll(".chip").forEach(c => c.remove());
+  items.forEach(x => {
+    const b = document.createElement("button");
+    b.type = "button"; b.className = "chip"; b.style.setProperty("--c", colorOf(x));
+    b.setAttribute("aria-pressed", set.has(x.id));
+    b.innerHTML = `<span class="dot"></span>${esc(label(x))}`;
+    b.onclick = () => { set.has(x.id) ? set.delete(x.id) : set.add(x.id); if (!set.size) set.add(x.id); state.sel = null; render(); };
+    el.appendChild(b);
+  });
+}
+function renderFilters() {
+  seg($("#f-region"), REGIONS, "region", x => x.id);
+  seg($("#f-range"), RANGES, "range");
+  seg($("#f-crit"), CRIT, "minCrit", x => x.n === 1 ? "Toate" : `≥ ${x.n}`, x => x.n);
+  seg($("#f-sort"), [{ id: "data", name: "Cele mai recente" }, { id: "crit", name: "Criticitate" }], "sort");
+  chips($("#f-dom"), DOMAINS, state.domains, x => dcol(x.id), x => x.name);
+  chips($("#f-ver"), VER, state.ver, x => VCOL[x.id], x => `${x.glyph} ${x.name}`);
+  const firs = [...new Set((DATA?.evenimente || []).filter(e => e.regiune === state.region).map(e => e.fir))];
+  if (state.fir !== "toate" && !firs.includes(state.fir)) state.fir = "toate";
+  $("#f-fir").innerHTML = `<option value="toate">Toate firele</option>` + firs.map(f => `<option ${f === state.fir ? "selected" : ""} value="${esc(f)}">${esc(f)}</option>`).join("");
+}
+$("#f-fir").onchange = e => { state.fir = e.target.value; state.sel = null; render(); };
+$("#reset").onclick = () => { Object.assign(state, { range: "7", minCrit: 1, fir: "toate", sel: null }); state.domains = new Set(DOMAINS.map(d => d.id)); state.ver = new Set(VER.map(v => v.id)); render(); };
+
+/* ---------- Fișă eveniment ---------- */
+function meter(n) { return `<span class="meter" style="--sev:${sevColor(n)}" title="Criticitate ${n} din 5: ${esc(CRIT[n-1].name)}" aria-label="Criticitate ${n} din 5">${[1,2,3,4,5].map(i => `<i class="${i <= n ? "on" : ""}"></i>`).join("")}</span>`; }
+function card(e) {
+  const v = vinfo(e.veridicitate);
+  const srcs = e.surse.map(id => DATA.surse[id]).filter(Boolean);
+  return `<article class="card ${state.sel === e.id ? "sel" : ""}" id="c-${esc(e.id)}">
+    <div class="cmeta"><span>${esc(fmtFull(e.data))} · ${esc(e.stare)}</span>${meter(e.criticitate)}</div>
+    <h3>${esc(e.titlu)}</h3>
+    <div class="fir">${esc(e.fir)}</div>
+    <p>${esc(e.rezumat)}</p>
+    <div class="tags">${e.domenii.map(d => `<span class="tag" style="--c:${dcol(d)}"><span class="dot"></span>${esc(dname(d))}</span>`).join("")}
+      <span class="pill v-${esc(v.id)}" title="${esc(v.desc)}">${v.glyph} ${esc(v.name)}</span></div>
+    ${(e.istoric || []).length ? `<div class="hist">${e.istoric.map(h => `<div><b>${esc(h.raport.slice(8,10) + "." + h.raport.slice(5,7) + " " + h.raport.slice(11))}</b> ${esc([h.nota, ...(h.schimbari || [])].filter(Boolean).join(" · "))}</div>`).join("")}</div>` : ""}
+    <div class="srcs">${srcs.length ? srcs.map(s => `<div><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.nume)}</a> <span class="tb">${esc(s.tabara)}</span></div>`).join("") : `<div>${esc(e.notaSurse || "Fără surse în interval.")}</div>`}</div>
+  </article>`;
+}
+
+/* ---------- Cronologie ---------- */
+function renderTimeline(list) {
+  const host = $("#tl");
+  const lanes = DOMAINS.filter(d => state.domains.has(d.id));
+  const dated = list.filter(e => e.data);
+  const undated = list.filter(e => !e.data);
+  if (!list.length) { host.innerHTML = emptyHtml(); $("#tl-legend").innerHTML = ""; $("#tl-note").textContent = ""; $("#detail").innerHTML = ""; return; }
+  const r = RANGES.find(x => x.id === state.range);
+  let start = r.days ? NOW_DAY - (r.days - 1) * DAY : Math.min(...dated.map(e => parseDay(e.data)), NOW_DAY);
+  const nDays = Math.round((NOW_DAY - start) / DAY) + 1;
+  const W = Math.max(host.clientWidth || 700, 560), LBL = W < 640 ? 108 : 150, LANE = 50, TOP = 14, AX = 34;
+  const plotW = W - LBL - 16, dayW = plotW / nDays, H = TOP + lanes.length * LANE + AX;
+  const x = t => LBL + ((t - start) / DAY + 0.5) * dayW;
+  const laneY = id => TOP + lanes.findIndex(l => l.id === id) * LANE + LANE / 2;
+  let s = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Cronologia evenimentelor pe domenii">`;
+  lanes.forEach((l, i) => {
+    const y = TOP + i * LANE;
+    s += `<rect x="${LBL}" y="${y + 3}" width="${plotW}" height="${LANE - 6}" rx="6" fill="var(--bg)"/>`;
+    s += `<circle cx="10" cy="${y + LANE/2}" r="5" fill="${dcol(l.id)}"/><text x="22" y="${y + LANE/2 + 4}" font-size="${W < 640 ? 11.5 : 13}" font-weight="600" fill="var(--ink)">${esc(W < 640 ? l.name.split(" ")[0] : l.name)}</text>`;
+  });
+  const step = Math.max(1, Math.ceil(nDays / Math.max(2, Math.floor(plotW / 64))));
+  for (let i = 0; i < nDays; i++) {
+    const t = start + i * DAY, xx = x(t);
+    if ((nDays - 1 - i) % step === 0) {
+      s += `<line x1="${xx}" x2="${xx}" y1="${TOP}" y2="${TOP + lanes.length * LANE}" stroke="var(--line)" stroke-width="1"/>`;
+      s += `<text x="${xx}" y="${H - 12}" text-anchor="middle" font-size="11.5" fill="var(--muted)" style="font-family:var(--f-mono)">${fmtDay(t)}</text>`;
+    }
+  }
+  const nx = x(NOW_DAY);
+  s += `<line x1="${nx}" x2="${nx}" y1="${TOP}" y2="${TOP + lanes.length * LANE}" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="3 3"/>`;
+  // poziții: grupează pe culoar + zi
+  const groups = {};
+  dated.forEach(e => e.domenii.filter(d => state.domains.has(d)).forEach(d => { (groups[d + "|" + e.data] ||= []).push(e); }));
+  const pos = {};
+  Object.entries(groups).forEach(([k, arr]) => {
+    const [d, day] = k.split("|"); const gap = Math.min(26, Math.max(14, dayW / (arr.length + 0.5)));
+    const g2 = Math.max(gap, 24), c0 = x(parseDay(day)), half = (arr.length - 1) / 2 * g2;
+    const shift = Math.min(0, (LBL + plotW - 16) - (c0 + half)) + Math.max(0, (LBL + 16) - (c0 - half));
+    arr.sort((a, b) => a.id.localeCompare(b.id)).forEach((e, i) => { (pos[e.id] ||= []).push({ d, cx: c0 + shift + (i - (arr.length - 1) / 2) * g2, cy: laneY(d) }); });
+  });
+  // legături între domeniile aceluiași eveniment
+  Object.values(pos).forEach(ps => { if (ps.length > 1) { const xs = ps.map(p => p.cx), ys = ps.map(p => p.cy); ps.sort((a,b)=>a.cy-b.cy); for (let i = 1; i < ps.length; i++) s += `<line x1="${ps[i-1].cx}" y1="${ps[i-1].cy}" x2="${ps[i].cx}" y2="${ps[i].cy}" stroke="var(--muted)" stroke-opacity=".45" stroke-width="1.2" stroke-dasharray="2 3"/>`; } });
+  dated.forEach(e => (pos[e.id] || []).forEach(p => {
+    const rr = 4 + e.criticitate * 2, c = dcol(p.d), v = e.veridicitate;
+    const fill = vfill(v, c), dash = vdash(v);
+    s += `<g class="tl-dot ${state.sel === e.id ? "sel" : ""}" tabindex="0" role="button" data-id="${esc(e.id)}" aria-label="${esc(e.titlu)}, ${esc(fmtFull(e.data))}, criticitate ${e.criticitate}"><title>${esc(e.titlu)} · criticitate ${e.criticitate} · ${esc(vinfo(v).name)}</title><circle cx="${p.cx}" cy="${p.cy}" r="${rr}" fill="${fill}" stroke="${c}" stroke-width="2" ${dash}/></g>`;
+  }));
+  s += `</svg>`;
+  host.innerHTML = s;
+  host.querySelectorAll(".tl-dot").forEach(g => {
+    const pick = () => { state.sel = state.sel === g.dataset.id ? null : g.dataset.id; renderTimeline(filtered()); };
+    g.addEventListener("click", pick);
+    g.addEventListener("keydown", ev => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); pick(); } });
+  });
+  $("#tl-legend").innerHTML =
+    `<span>Mărimea punctului = criticitatea</span>` +
+    `<span><svg width="16" height="16"><circle cx="8" cy="8" r="6" fill="var(--muted)" stroke="var(--muted)" stroke-width="2"/></svg> Confirmat</span>` +
+    `<span><svg width="16" height="16"><circle cx="8" cy="8" r="6" fill="color-mix(in srgb, var(--muted) 40%, var(--surface))" stroke="var(--muted)" stroke-width="2"/></svg> Parțial</span>` +
+    `<span><svg width="16" height="16"><circle cx="8" cy="8" r="6" fill="var(--surface)" stroke="var(--muted)" stroke-width="2" stroke-dasharray="3 2"/></svg> Neconfirmat</span>` +
+    `<span><svg width="16" height="16"><circle cx="8" cy="8" r="6" fill="var(--surface)" stroke="var(--muted)" stroke-width="2" stroke-dasharray="1 2"/></svg> Observație</span>` +
+    `<span><svg width="18" height="12"><line x1="2" y1="6" x2="16" y2="6" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="3 3"/></svg> Ultimul raport</span>`;
+  const notes = ["Apasă pe un punct pentru fișa evenimentului. Liniile punctate leagă același eveniment pe mai multe domenii."];
+  if (undated.length) notes.push(`${undated.length} ${undated.length === 1 ? "eveniment fără dată exactă nu apare" : "evenimente fără dată exactă nu apar"} pe axă: ${undated.map(e => e.titlu).join("; ")}.`);
+  $("#tl-note").textContent = notes.join(" ");
+  const sel = list.find(e => e.id === state.sel);
+  $("#detail").innerHTML = sel ? card(sel) : "";
+}
+
+/* ---------- Hartă ---------- */
+let GEO = null;
+function renderMap(list) {
+  const host = $("#map");
+  const reg = DATA?.regiuni?.[state.region];
+  if (!GEO || !reg || !window.d3) { host.innerHTML = `<div class="empty"><strong>Harta se încarcă</strong>Dacă nu apare, reîncarcă pagina.</div>`; return; }
+  const W = Math.max(host.clientWidth || 700, 320), H = Math.round(Math.max(300, Math.min(W * 0.62, 640)));
+  const [[x0, y0], [x1, y1]] = reg.bbox;
+  const proj = d3.geoMercator().fitExtent([[8, 8], [W - 8, H - 8]], { type: "MultiPoint", coordinates: [[x0, y0], [x1, y1]] });
+  const path = d3.geoPath(proj);
+  const small = W < 560;
+  let s = `<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Harta evenimentelor pentru ${esc(state.region)}">
+    <defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="var(--land)"/><line x1="0" y1="0" x2="0" y2="6" stroke="var(--border)" stroke-width="2"/></pattern>
+    <clipPath id="mclip"><rect width="${W}" height="${H}"/></clipPath></defs>
+    <rect width="${W}" height="${H}" fill="var(--sea)"/><g clip-path="url(#mclip)">`;
+  GEO.features.forEach(f => {
+    const fill = f.properties.disputed ? "url(#hatch)" : reg.focus.includes(String(f.id)) ? "var(--focus)" : "var(--land)";
+    s += `<path d="${path(f) || ""}" fill="${fill}" stroke="var(--border)" stroke-width="0.8"><title>${esc(f.properties.disputed ? "Crimeea: anexată de Rusia în 2014, recunoscută internațional ca parte a Ucrainei" : f.properties.name)}</title></path>`;
+  });
+  reg.etichete.forEach(([t, c, k]) => {
+    if (small && k === "tara" && t.length > 9) return;
+    const [px, py] = proj(c);
+    s += k === "mare"
+      ? `<text x="${px}" y="${py}" text-anchor="middle" font-size="${small ? 11 : 13}" font-style="italic" fill="var(--muted)" style="font-family:var(--f-display)">${esc(t)}</text>`
+      : `<text x="${px}" y="${py}" text-anchor="middle" font-size="${small ? 9.5 : 11}" letter-spacing="1.5" fill="var(--muted)" opacity=".85" style="font-family:var(--f-mono)">${esc(t)}</text>`;
+  });
+  (reg.repere || []).forEach(r => { const [px, py] = proj(r.coord); s += `<g><rect x="${px - 4}" y="${py - 4}" width="8" height="8" fill="none" stroke="var(--muted)" stroke-width="1.5" transform="rotate(45 ${px} ${py})"/>${small ? "" : `<text x="${px + 9}" y="${py + 4}" font-size="11" fill="var(--muted)">${esc(r.nume)}</text>`}</g>`; });
+
+  const evs = list.filter(e => e.loc);
+  const prim = e => e.domenii.find(d => state.domains.has(d)) || e.domenii[0];
+  // linii
+  evs.filter(e => e.loc.tip === "linie").forEach(e => {
+    const c = dcol(prim(e)), pts = e.loc.coord.map(p => proj(p));
+    const d = "M" + pts.map(p => p.join(",")).join(" L");
+    const dash = e.loc.precizie !== "exact" ? `stroke-dasharray="7 5"` : "";
+    s += `<g class="mk ${state.sel === e.id ? "sel" : ""}" tabindex="0" role="button" data-id="${esc(e.id)}" aria-label="${esc(e.titlu)}"><title>${esc(e.titlu)} · ${esc(e.loc.nume)}</title>
+      <path d="${d}" stroke="transparent" stroke-width="16" fill="none"/>
+      <path class="m-main" d="${d}" stroke="${c}" stroke-width="${2 + e.criticitate * 0.8}" stroke-linecap="round" fill="none" ${dash}/>
+      ${pts.map(p => `<circle cx="${p[0]}" cy="${p[1]}" r="4" fill="${c}"/>`).join("")}</g>`;
+  });
+  // puncte, cu decalaj pentru locații comune
+  const groups = {};
+  evs.filter(e => e.loc.tip === "punct").forEach(e => { (groups[e.loc.coord.join(",")] ||= []).push(e); });
+  Object.values(groups).forEach(arr => {
+    const [bx, by] = proj(arr[0].loc.coord);
+    arr.forEach((e, i) => {
+      const a = (i / arr.length) * 2 * Math.PI - Math.PI / 2, rr = arr.length > 1 ? 13 : 0;
+      const cx = bx + rr * Math.cos(a), cy = by + rr * Math.sin(a);
+      const c = dcol(prim(e)), v = e.veridicitate, r = 4 + e.criticitate * 2;
+      const fill = vfill(v, c), dash = vdash(v);
+      const halo = e.loc.precizie !== "exact" && i === 0 ? `<circle cx="${bx}" cy="${by}" r="${30 + rr}" fill="${c}" fill-opacity=".1" stroke="${c}" stroke-opacity=".5" stroke-dasharray="4 4"/>` : "";
+      s += `${halo}<g class="mk ${state.sel === e.id ? "sel" : ""}" tabindex="0" role="button" data-id="${esc(e.id)}" aria-label="${esc(e.titlu)}, ${esc(e.loc.nume)}"><title>${esc(e.titlu)} · ${esc(e.loc.nume)}</title>
+        <circle class="m-main" cx="${cx}" cy="${cy}" r="${r}" fill="${fill}" stroke="${c}" stroke-width="2" ${dash}/></g>`;
+    });
+  });
+  // eticheta locului selectat
+  const sel = list.find(e => e.id === state.sel);
+  if (sel && sel.loc) {
+    const p = proj(sel.loc.tip === "linie" ? sel.loc.coord[sel.loc.coord.length - 1] : sel.loc.coord);
+    const tx = Math.min(Math.max(p[0], 90), W - 90);
+    s += `<g pointer-events="none"><text x="${tx}" y="${p[1] - 22}" text-anchor="middle" font-size="12.5" font-weight="600" fill="var(--ink)" stroke="var(--sea)" stroke-width="4" paint-order="stroke">${esc(sel.loc.nume)}</text></g>`;
+  }
+  s += `</g></svg>`;
+  if (!DATA.evenimente.some(e => e.regiune === state.region)) s += `<div class="map-empty"><strong>Niciun raport pentru ${esc(state.region)} încă.</strong> Evenimentele vor apărea pe hartă după primul raport din această serie.</div>`;
+  else if (!evs.length) s += `<div class="map-empty"><strong>Niciun eveniment pentru aceste filtre.</strong> Lărgește perioada sau reactivează domeniile.</div>`;
+  host.innerHTML = s;
+  host.querySelectorAll(".mk").forEach(g => {
+    const pick = () => { state.sel = state.sel === g.dataset.id ? null : g.dataset.id; renderMap(filtered()); };
+    g.addEventListener("click", pick);
+    g.addEventListener("keydown", ev => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); pick(); } });
+  });
+  $("#map-legend").innerHTML =
+    `<span>Culoare = primul domeniu activ · mărime = criticitate</span>` +
+    `<span><svg width="30" height="12"><line x1="2" y1="6" x2="28" y2="6" stroke="var(--muted)" stroke-width="3"/></svg> Traseu</span>` +
+    `<span><svg width="30" height="12"><line x1="2" y1="6" x2="28" y2="6" stroke="var(--muted)" stroke-width="3" stroke-dasharray="7 5"/></svg> Relație sau traseu aproximativ</span>` +
+    `<span><svg width="18" height="18"><circle cx="9" cy="9" r="8" fill="var(--muted)" fill-opacity=".12" stroke="var(--muted)" stroke-dasharray="3 3"/></svg> Locație aproximativă</span>` +
+    `<span><svg width="12" height="12"><rect x="3" y="3" width="6" height="6" fill="none" stroke="var(--muted)" stroke-width="1.5" transform="rotate(45 6 6)"/></svg> Reper</span>` +
+    `<span><svg width="16" height="12"><rect width="16" height="12" fill="url(#hatch)" stroke="var(--border)"/></svg> Teritoriu disputat</span>`;
+  $("#map-note").textContent = "Apasă pe un marcaj pentru fișa evenimentului. Frontiere: Natural Earth. Crimeea e marcată ca teritoriu disputat: anexată de Rusia în 2014, recunoscută internațional ca parte a Ucrainei." + (list.some(e => !e.loc) ? " Evenimentele fără locație nu apar pe hartă." : "");
+  $("#detail-h").innerHTML = sel ? card(sel) : "";
+}
+
+/* ---------- Matrice ---------- */
+function renderMatrix(list) {
+  const m = $("#matrix");
+  if (!list.length) { m.innerHTML = `<div style="grid-column:1/-1">${emptyHtml()}</div>`; $("#detail-m").innerHTML = ""; return; }
+  let h = `<div class="mh">Domeniu</div>` + CRIT.map(c => `<div class="mh">${c.n} · ${esc(c.name)}</div>`).join("");
+  DOMAINS.filter(d => state.domains.has(d.id)).forEach(d => {
+    h += `<div class="mrow"><span class="dot" style="background:${dcol(d.id)}"></span>${esc(d.name)}</div>`;
+    CRIT.forEach(c => {
+      const evs = list.filter(e => e.domenii.includes(d.id) && e.criticitate === c.n);
+      h += `<div class="mcell ${c.n >= 4 && evs.length ? "hot" : ""}">${evs.map(e => `<button type="button" class="mchip" data-id="${esc(e.id)}"><span class="v-${esc(e.veridicitate)}">${vinfo(e.veridicitate).glyph}</span> ${esc(e.titlu)}</button>`).join("")}</div>`;
+    });
+  });
+  m.innerHTML = h;
+  m.querySelectorAll(".mchip").forEach(b => b.onclick = () => { state.sel = state.sel === b.dataset.id ? null : b.dataset.id; renderMatrix(filtered()); });
+  const sel = list.find(e => e.id === state.sel);
+  $("#detail-m").innerHTML = sel ? card(sel) : "";
+}
+
+/* ---------- Fișe ---------- */
+function renderCards(list) {
+  const arr = [...list].sort((a, b) => state.sort === "crit"
+    ? (b.criticitate - a.criticitate) || ((b.data ? parseDay(b.data) : 0) - (a.data ? parseDay(a.data) : 0))
+    : ((b.data ? parseDay(b.data) : 0) - (a.data ? parseDay(a.data) : 0)) || (b.criticitate - a.criticitate));
+  $("#cards").innerHTML = arr.length ? arr.map(card).join("") : emptyHtml();
+  $("#count-f").textContent = arr.length ? `${arr.length} evenimente` : "";
+}
+
+function emptyHtml() {
+  const any = DATA && DATA.evenimente.some(e => e.regiune === state.region);
+  return any
+    ? `<div class="empty"><strong>Niciun eveniment pentru aceste filtre</strong>Lărgește perioada sau reactivează domeniile și nivelurile de verificare.</div>`
+    : `<div class="empty"><strong>Niciun raport pentru ${esc(state.region)} încă</strong>Evenimentele apar aici după primul raport din această serie.</div>`;
+}
+
+function renderStats(list) {
+  const firs = new Set(list.map(e => e.fir)).size;
+  const high = list.filter(e => e.criticitate >= 4).length;
+  const unc = list.filter(e => e.veridicitate === "neconfirmat").length;
+  const part = list.filter(e => e.veridicitate === "partial").length;
+  $("#stats").innerHTML = `<span><b>${list.length}</b> evenimente</span><span><b>${firs}</b> fire</span><span><b>${high}</b> cu criticitate 4–5</span><span><b>${part}</b> parțial confirmate</span><span><b>${unc}</b> neconfirmate</span>`;
+}
+
+function renderMethod() {
+  $("#rub-crit").innerHTML = CRIT.map(c => `<div>${meter(c.n)}<span><b>${c.n} · ${esc(c.name)}.</b> ${esc(c.desc)}</span></div>`).join("");
+  $("#rub-ver").innerHTML = VER.map(v => `<div><span class="pill v-${v.id}">${v.glyph}</span><span><b>${esc(v.name)}.</b> ${esc(v.desc)}</span></div>`).join("");
+  $("#rub-dom").innerHTML = DOMAINS.map(d => `<div><span class="tag" style="--c:${dcol(d.id)}"><span class="dot"></span></span><span><b>${esc(d.name)}.</b> ${esc(d.desc)}</span></div>`).join("");
+}
+
+function setView() {
+  const v = (location.hash || "").slice(1);
+  state.view = ["cronologie", "harta", "matrice", "fise"].includes(v) ? v : "cronologie";
+  document.querySelectorAll(".tabs a").forEach(a => a.setAttribute("aria-current", a.dataset.view === state.view ? "page" : "false"));
+  ["cronologie", "harta", "matrice", "fise"].forEach(id => $("#view-" + id).hidden = id !== state.view);
+}
+
+function render() {
+  renderFilters();
+  $("#eyebrow").textContent = REGIONS.find(r => r.id === state.region).series;
+  const list = filtered();
+  renderStats(list);
+  setView();
+  if (state.view === "cronologie") renderTimeline(list);
+  if (state.view === "harta") renderMap(list);
+  if (state.view === "matrice") renderMatrix(list);
+  if (state.view === "fise") renderCards(list);
+}
+
+window.addEventListener("hashchange", () => render());
+let rt; window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { if (state.view === "cronologie") renderTimeline(filtered()); if (state.view === "harta") renderMap(filtered()); }, 150); });
+
+renderMethod();
+fetch("geo.json").then(r => r.json()).then(g => { GEO = g; if (state.view === "harta" && DATA) renderMap(filtered()); }).catch(() => {});
+fetch("events.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
+  DATA = d;
+  NOW_DAY = parseDay(d.meta.ultimulRaport.slice(0, 10));
+  const t = d.meta.ultimulRaport.replace("T", ", ora ");
+  $("#foot").textContent = `Ultimul raport inclus: ${fmtFull(d.meta.ultimulRaport.slice(0,10))}, ora ${d.meta.ultimulRaport.slice(11)}. ${d.meta.nota} Orientarea surselor marcată „estimat” este o evaluare editorială. Mai multe unghiuri pentru aceeași poveste. Imaginea completă o vezi tu.`;
+  render();
+}).catch(() => {
+  $("#stats").textContent = "";
+  $("#tl").innerHTML = `<div class="empty"><strong>Datele nu s-au încărcat</strong>Reîncarcă pagina. Dacă problema persistă, fișierul de date lipsește din publicare.</div>`;
+});
+render();
+</script>
+
+</body>
+</html>
