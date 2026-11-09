@@ -77,7 +77,10 @@
     "precizie": "aproximativ"
    },
    "raport": "2026-11-09T08:19",
-   "istoric": []
+   "istoric": [],
+   "impact": 4,
+   "zona": "Z1",
+   "ajustare": 0
   },
   {
    "id": "ro-002",
@@ -106,7 +109,10 @@
     "precizie": "aproximativ"
    },
    "raport": "2026-11-09T08:19",
-   "istoric": []
+   "istoric": [],
+   "impact": 4,
+   "zona": "Z1",
+   "ajustare": 0
   },
   {
    "id": "ro-003",
@@ -119,7 +125,7 @@
     "politic",
     "militar"
    ],
-   "criticitate": 3,
+   "criticitate": 4,
    "veridicitate": "neconfirmat",
    "stare": "în desfășurare",
    "tendinta": "stabil",
@@ -135,7 +141,10 @@
     "precizie": "exact"
    },
    "raport": "2026-11-09T08:19",
-   "istoric": []
+   "istoric": [],
+   "impact": 3,
+   "zona": "Z0",
+   "ajustare": 1
   },
   {
    "id": "ro-004",
@@ -175,7 +184,10 @@
     "precizie": "exact"
    },
    "raport": "2026-11-09T08:19",
-   "istoric": []
+   "istoric": [],
+   "impact": 4,
+   "zona": "Z1",
+   "ajustare": 0
   },
   {
    "id": "ro-005",
@@ -207,7 +219,10 @@
     "precizie": "exact"
    },
    "raport": "2026-11-09T08:19",
-   "istoric": []
+   "istoric": [],
+   "impact": 4,
+   "zona": "Z1",
+   "ajustare": 0
   },
   {
    "id": "ro-006",
@@ -220,7 +235,7 @@
     "energie",
     "economic"
    ],
-   "criticitate": 2,
+   "criticitate": 3,
    "veridicitate": "partial",
    "stare": "nou",
    "tendinta": "stabil",
@@ -238,7 +253,10 @@
     "precizie": "aproximativ"
    },
    "raport": "2026-11-09T08:19",
-   "istoric": []
+   "istoric": [],
+   "impact": 2,
+   "zona": "Z0",
+   "ajustare": 1
   },
   {
    "id": "ro-007",
@@ -252,7 +270,7 @@
     "economic",
     "politic"
    ],
-   "criticitate": 3,
+   "criticitate": 4,
    "veridicitate": "partial",
    "stare": "nou",
    "tendinta": "stabil",
@@ -275,7 +293,10 @@
     "precizie": "aproximativ"
    },
    "raport": "2026-11-09T08:19",
-   "istoric": []
+   "istoric": [],
+   "impact": 3,
+   "zona": "Z0",
+   "ajustare": 1
   },
   {
    "id": "ro-008",
@@ -304,7 +325,10 @@
     "precizie": "exact"
    },
    "raport": "2026-11-09T08:19",
-   "istoric": []
+   "istoric": [],
+   "impact": 3,
+   "zona": "Z1",
+   "ajustare": 0
   },
   {
    "id": "ro-009",
@@ -335,7 +359,10 @@
     "precizie": "exact"
    },
    "raport": "2026-11-09T08:19",
-   "istoric": []
+   "istoric": [],
+   "impact": 2,
+   "zona": "Z1",
+   "ajustare": 0
   }
  ],
  "regiuni": {
@@ -428,7 +455,153 @@
       46.62
      ]
     }
-   ]
+   ],
+   "bboxExtins": [
+    [
+     -10,
+     24
+    ],
+    [
+     52,
+     61
+    ]
+   ],
+   "zone": {
+    "Z0": [
+     "642"
+    ],
+    "Z1": [
+     "498",
+     "804",
+     "348",
+     "688",
+     "100"
+    ],
+    "Z2": [
+     "792",
+     "268",
+     "643",
+     "crimea",
+     "616",
+     "440",
+     "428",
+     "233",
+     "070",
+     "499",
+     "807",
+     "008",
+     "031",
+     "051",
+     "056",
+     "840"
+    ],
+    "Z3": [
+     "kosovo",
+     "376",
+     "422",
+     "760",
+     "400",
+     "368",
+     "364",
+     "682",
+     "784",
+     "634",
+     "414",
+     "048",
+     "512",
+     "887",
+     "275",
+     "466",
+     "562",
+     "140",
+     "380",
+     "724",
+     "276"
+    ]
+   },
+   "mari": [
+    {
+     "nume": "Zona economică exclusivă a României (aproximativ)",
+     "zona": "Z0",
+     "poligon": [
+      [
+       28.6,
+       45.25
+      ],
+      [
+       29.8,
+       45.25
+      ],
+      [
+       31.3,
+       44.6
+      ],
+      [
+       31.2,
+       43.75
+      ],
+      [
+       28.6,
+       43.75
+      ]
+     ]
+    },
+    {
+     "nume": "Vestul Mării Negre",
+     "zona": "Z1",
+     "poligon": [
+      [
+       27.4,
+       41.0
+      ],
+      [
+       33.0,
+       41.0
+      ],
+      [
+       33.0,
+       46.6
+      ],
+      [
+       29.5,
+       46.6
+      ],
+      [
+       27.4,
+       44.0
+      ]
+     ]
+    },
+    {
+     "nume": "Marea Neagră și Marea Azov",
+     "zona": "Z2",
+     "poligon": [
+      [
+       27.4,
+       40.8
+      ],
+      [
+       42.0,
+       40.8
+      ],
+      [
+       42.0,
+       47.5
+      ],
+      [
+       27.4,
+       47.5
+      ]
+     ]
+    }
+   ],
+   "zoneText": {
+    "Z0": "România, inclusiv apele teritoriale și zona economică exclusivă din Marea Neagră.",
+    "Z1": "Republica Moldova (cu Transnistria), Ucraina, Ungaria, Serbia, Bulgaria, vestul Mării Negre.",
+    "Z2": "Marea Neagră ca întreg (Turcia și strâmtorile, Crimeea, Marea Azov, Georgia), Rusia, flancul estic NATO (Polonia, statele baltice), Balcanii de Vest, Caucazul de Sud, Bruxelles (UE, NATO), SUA.",
+    "Z3": "Orientul Mijlociu și Golful, Kosovo (KFOR), misiunile din Africa (Mali, Niger, Republica Centrafricană), Italia, Spania, Germania (diaspora).",
+    "Z4": "Restul lumii."
+   }
   },
   "Iran": {
    "bbox": [
@@ -526,7 +699,183 @@
      "mare"
     ]
    ],
-   "repere": []
+   "repere": [],
+   "bboxExtins": [
+    [
+     8,
+     4
+    ],
+    [
+     90,
+     56
+    ]
+   ],
+   "zone": {
+    "Z0": [
+     "364"
+    ],
+    "Z1": [
+     "368",
+     "792",
+     "031",
+     "051",
+     "795",
+     "004",
+     "586",
+     "682",
+     "784",
+     "634",
+     "048",
+     "414",
+     "512"
+    ],
+    "Z2": [
+     "422",
+     "760",
+     "887",
+     "376",
+     "275",
+     "643",
+     "156",
+     "398",
+     "860",
+     "762",
+     "417",
+     "268",
+     "840"
+    ],
+    "Z3": [
+     "804",
+     "729",
+     "862",
+     "040",
+     "276",
+     "250",
+     "826",
+     "528",
+     "056",
+     "752",
+     "756",
+     "380",
+     "724"
+    ]
+   },
+   "mari": [
+    {
+     "nume": "Golful Persic și Strâmtoarea Hormuz",
+     "zona": "Z1",
+     "poligon": [
+      [
+       47.5,
+       30.6
+      ],
+      [
+       50.6,
+       30.6
+      ],
+      [
+       57.6,
+       27.3
+      ],
+      [
+       57.6,
+       25.2
+      ],
+      [
+       56.4,
+       23.9
+      ],
+      [
+       51.0,
+       23.6
+      ],
+      [
+       47.5,
+       27.0
+      ]
+     ]
+    },
+    {
+     "nume": "Marea Caspică",
+     "zona": "Z1",
+     "poligon": [
+      [
+       46.4,
+       36.4
+      ],
+      [
+       55.2,
+       36.4
+      ],
+      [
+       55.2,
+       47.6
+      ],
+      [
+       46.4,
+       47.6
+      ]
+     ]
+    },
+    {
+     "nume": "Golful Oman și Marea Arabiei",
+     "zona": "Z2",
+     "poligon": [
+      [
+       56.0,
+       8.0
+      ],
+      [
+       72.0,
+       8.0
+      ],
+      [
+       72.0,
+       26.2
+      ],
+      [
+       56.0,
+       26.2
+      ]
+     ]
+    },
+    {
+     "nume": "Marea Roșie, Bab el-Mandeb și Golful Aden",
+     "zona": "Z2",
+     "poligon": [
+      [
+       32.0,
+       10.0
+      ],
+      [
+       52.0,
+       10.0
+      ],
+      [
+       52.0,
+       30.2
+      ],
+      [
+       32.0,
+       30.2
+      ]
+     ]
+    }
+   ],
+   "zoneText": {
+    "Z0": "Iranul, inclusiv insulele din Golf administrate de Iran.",
+    "Z1": "Irak, Turcia, Azerbaidjan, Armenia, Turkmenistan, Afganistan, Pakistan, statele Golfului (Arabia Saudită, Emiratele Arabe Unite, Qatar, Bahrain, Kuweit, Oman), Golful Persic, Strâmtoarea Hormuz, Marea Caspică.",
+    "Z2": "Liban, Siria, Yemen, Israel și teritoriile palestiniene, Rusia, China, Asia Centrală, Georgia, SUA, Golful Oman, Marea Arabiei, Marea Roșie, Bab el-Mandeb.",
+    "Z3": "Ucraina, Sudan, Venezuela, Europa (Austria și Viena – AIEA, Germania, Franța, Regatul Unit, Țările de Jos, Belgia, Suedia, Elveția, Italia, Spania).",
+    "Z4": "Restul lumii."
+   }
   }
+ },
+ "zoneDef": {
+  "Z0": "Teritoriul național",
+  "Z1": "Proximitate imediată",
+  "Z2": "Interes strategic",
+  "Z3": "Zonă de acțiune",
+  "Z4": "Exterior"
  }
 }
