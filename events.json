@@ -15,6 +15,13 @@
     "fisier": "2026-11-08_2022.txt",
     "noi": 21,
     "actualizari": 0
+   },
+   {
+    "regiune": "România",
+    "ora": "2026-11-08T20:23",
+    "fisier": "romania_2026-11-08_2023.txt",
+    "noi": 0,
+    "actualizari": 7
    }
   ],
   "nota": "Evenimente extrase automat din rapoartele de 12 ore; etichetele sunt verificate editorial periodic."
@@ -361,6 +368,18 @@
    "tabara": "Internațional (estimat)",
    "orientare": "",
    "url": "https://t.me/gazaalanpa/27210"
+  },
+  "sf6b16f62b5": {
+   "nume": "ЕЖ",
+   "tabara": "Rus (estimat)",
+   "orientare": "",
+   "url": "https://t.me/ejdailyru/428073"
+  },
+  "s9c0e473789": {
+   "nume": "ЕЖ",
+   "tabara": "Rus (estimat)",
+   "orientare": "",
+   "url": "https://t.me/ejdailyru/428083"
   }
  },
  "evenimente": [
@@ -407,10 +426,12 @@
     "juridic"
    ],
    "criticitate": 4,
-   "veridicitate": "confirmat",
+   "veridicitate": "probabil",
    "stare": "în desfășurare",
    "tendinta": "stabil",
-   "surse": [],
+   "surse": [
+    "sf6b16f62b5"
+   ],
    "notaSurse": "Comunicat oficial, anterior intervalului.",
    "loc": {
     "tip": "punct",
@@ -422,7 +443,15 @@
     "precizie": "aproximativ"
    },
    "raport": "2026-11-09T08:19",
-   "istoric": [],
+   "istoric": [
+    {
+     "raport": "2026-11-08T20:23",
+     "nota": "Procuratura din Varna a confirmat descoperirea rămășițelor a șase marinari în epavă, descrise ca „grav deteriorate\"; s-au dispus teste ADN pentru identificare.",
+     "schimbari": [
+      "verificare: confirmat → probabil"
+     ]
+    }
+   ],
    "impact": 4,
    "zona": "Z1",
    "ajustare": 0
@@ -442,7 +471,9 @@
    "veridicitate": "neconfirmat",
    "stare": "în desfășurare",
    "tendinta": "stabil",
-   "surse": [],
+   "surse": [
+    "sf6b16f62b5"
+   ],
    "notaSurse": "Din rapoarte anterioare.",
    "loc": {
     "tip": "punct",
@@ -454,7 +485,13 @@
     "precizie": "exact"
    },
    "raport": "2026-11-09T08:19",
-   "istoric": [],
+   "istoric": [
+    {
+     "raport": "2026-11-08T20:23",
+     "nota": "Declarația președintelui Nicușor Dan este reconfirmată în sursă; atribuie contextul războiului rus, nu autorul concret al atacului.",
+     "schimbari": []
+    }
+   ],
    "impact": 3,
    "zona": "Z0",
    "ajustare": 1
@@ -471,15 +508,16 @@
     "politic"
    ],
    "criticitate": 4,
-   "veridicitate": "confirmat",
-   "stare": "nou",
+   "veridicitate": "probabil",
+   "stare": "încheiat",
    "tendinta": "detensionare",
    "surse": [
     "s3",
     "s2",
     "s5",
     "s4",
-    "s6"
+    "s6",
+    "s9c0e473789"
    ],
    "loc": {
     "tip": "linie",
@@ -497,7 +535,16 @@
     "precizie": "exact"
    },
    "raport": "2026-11-09T08:19",
-   "istoric": [],
+   "istoric": [
+    {
+     "raport": "2026-11-08T20:23",
+     "nota": "Linia Vulcănești–Chișinău inaugurată pe 8 noiembrie; potrivit anunțului oficial, poate transporta peste 50% din consumul de vârf al Moldovei.",
+     "schimbari": [
+      "stare: nou → încheiat",
+      "verificare: confirmat → probabil"
+     ]
+    }
+   ],
    "impact": 4,
    "zona": "Z1",
    "ajustare": 0
@@ -515,12 +562,13 @@
     "info"
    ],
    "criticitate": 4,
-   "veridicitate": "confirmat",
+   "veridicitate": "probabil",
    "stare": "nou",
    "tendinta": "stabil",
    "surse": [
     "s5",
-    "s6"
+    "s6",
+    "s9c0e473789"
    ],
    "loc": {
     "tip": "punct",
@@ -532,7 +580,15 @@
     "precizie": "exact"
    },
    "raport": "2026-11-09T08:19",
-   "istoric": [],
+   "istoric": [
+    {
+     "raport": "2026-11-08T20:23",
+     "nota": "Declarația Sandei privind oprirea achizițiilor de gaz rusesc provine dintr-o postare pe X citată de EJ Daily; nu există confirmare independentă în interval.",
+     "schimbari": [
+      "verificare: confirmat → probabil"
+     ]
+    }
+   ],
    "impact": 4,
    "zona": "Z1",
    "ajustare": 0
@@ -550,11 +606,12 @@
    ],
    "criticitate": 3,
    "veridicitate": "partial",
-   "stare": "nou",
+   "stare": "de urmărit",
    "tendinta": "stabil",
    "surse": [
     "s5",
-    "s6"
+    "s6",
+    "s9c0e473789"
    ],
    "loc": {
     "tip": "punct",
@@ -566,7 +623,15 @@
     "precizie": "aproximativ"
    },
    "raport": "2026-11-09T08:19",
-   "istoric": [],
+   "istoric": [
+    {
+     "raport": "2026-11-08T20:23",
+     "nota": "Cele două linii electrice suplimentare România–Moldova rămân la stadiul de anunț al Sandei, fără calendar sau finanțare confirmate.",
+     "schimbari": [
+      "stare: nou → de urmărit"
+     ]
+    }
+   ],
    "impact": 2,
    "zona": "Z0",
    "ajustare": 1
@@ -624,9 +689,11 @@
    ],
    "criticitate": 3,
    "veridicitate": "confirmat",
-   "stare": "fără evoluție",
+   "stare": "în desfășurare",
    "tendinta": "stabil",
-   "surse": [],
+   "surse": [
+    "sf6b16f62b5"
+   ],
    "notaSurse": "Stare de situație; nicio sursă nouă în interval.",
    "loc": {
     "tip": "punct",
@@ -638,7 +705,15 @@
     "precizie": "exact"
    },
    "raport": "2026-11-09T08:19",
-   "istoric": [],
+   "istoric": [
+    {
+     "raport": "2026-11-08T20:23",
+     "nota": "Ancheta condusă de procuratura din Varna avansează cu teste ADN pentru identificarea celor șase victime; originea dronelor rămâne neconfirmată oficial.",
+     "schimbari": [
+      "stare: fără evoluție → în desfășurare"
+     ]
+    }
+   ],
    "impact": 3,
    "zona": "Z1",
    "ajustare": 0
@@ -660,7 +735,8 @@
    "tendinta": "stabil",
    "surse": [
     "s1",
-    "s3"
+    "s3",
+    "s9c0e473789"
    ],
    "loc": {
     "tip": "punct",
@@ -672,7 +748,13 @@
     "precizie": "exact"
    },
    "raport": "2026-11-09T08:19",
-   "istoric": [],
+   "istoric": [
+    {
+     "raport": "2026-11-08T20:23",
+     "nota": "Nicio reacție rusă sau transnistreană la inaugurarea liniei Vulcănești–Chișinău nu apare în sursele disponibile din interval.",
+     "schimbari": []
+    }
+   ],
    "impact": 2,
    "zona": "Z1",
    "ajustare": 0
