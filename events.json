@@ -1,0 +1,532 @@
+{
+ "meta": {
+  "ultimulRaport": "2026-11-09T08:19",
+  "rapoarte": [
+   {
+    "regiune": "România",
+    "ora": "2026-11-09T08:19",
+    "fisier": "romania_2026-11-09_0819.txt",
+    "noi": 9,
+    "actualizari": 0
+   }
+  ],
+  "nota": "Evenimente extrase din rapoartele de 12 ore; etichetele sunt verificate editorial periodic."
+ },
+ "surse": {
+  "s1": {
+   "nume": "Раньше всех. Ну почти.",
+   "tabara": "Rus",
+   "orientare": "agregator de știri, neutru-pragmatic (estimat)",
+   "url": "https://t.me/bbbreaking/241827"
+  },
+  "s2": {
+   "nume": "DD Geopolitics",
+   "tabara": "Occidental",
+   "orientare": "agregator geopolitic (estimat)",
+   "url": "https://t.me/DDGeopolitics/197656"
+  },
+  "s3": {
+   "nume": "The Insider",
+   "tabara": "Rus critic",
+   "orientare": "pro-occidental, critic față de Kremlin (estimat)",
+   "url": "https://t.me/theinsider/53714"
+  },
+  "s4": {
+   "nume": "Deutsche Welle",
+   "tabara": "Occidental",
+   "orientare": "occidental",
+   "url": "https://t.me/dw_de_news/54702"
+  },
+  "s5": {
+   "nume": "Al Jazeera",
+   "tabara": "Internațional",
+   "orientare": "internațional, echilibrat (estimat)",
+   "url": "https://t.me/aljazeeraEN/89698"
+  },
+  "s6": {
+   "nume": "Труха Україна",
+   "tabara": "Ucrainean",
+   "orientare": "pro-ucrainean (estimat)",
+   "url": "https://t.me/truexanewsua/148257"
+  }
+ },
+ "evenimente": [
+  {
+   "id": "ro-001",
+   "regiune": "România",
+   "fir": "Securitate maritimă (Marea Neagră)",
+   "data": "2026-10-15",
+   "titlu": "Atac cu drone în Marea Neagră asupra navei Wine Trader",
+   "rezumat": "Atacul a lăsat nava Wine Trader epavă, cu victime în rândul echipajului. Originea dronelor nu a fost confirmată oficial.",
+   "domenii": [
+    "militar"
+   ],
+   "criticitate": 4,
+   "veridicitate": "confirmat",
+   "stare": "în desfășurare",
+   "tendinta": "stabil",
+   "surse": [],
+   "notaSurse": "Din rapoarte anterioare; nicio sursă nouă în intervalul 08–09.11.",
+   "loc": {
+    "tip": "punct",
+    "nume": "Marea Neagră, vest (zonă aproximativă)",
+    "coord": [
+     29.6,
+     43.4
+    ],
+    "precizie": "aproximativ"
+   },
+   "raport": "2026-11-09T08:19",
+   "istoric": []
+  },
+  {
+   "id": "ro-002",
+   "regiune": "România",
+   "fir": "Securitate maritimă (Marea Neagră)",
+   "data": null,
+   "titlu": "Șase trupuri descoperite în epava Wine Trader",
+   "rezumat": "Comunicat oficial, anterior intervalului raportului. Un al șaptelea marinar rămâne dispărut.",
+   "domenii": [
+    "militar",
+    "juridic"
+   ],
+   "criticitate": 4,
+   "veridicitate": "confirmat",
+   "stare": "în desfășurare",
+   "tendinta": "stabil",
+   "surse": [],
+   "notaSurse": "Comunicat oficial, anterior intervalului.",
+   "loc": {
+    "tip": "punct",
+    "nume": "Epava Wine Trader, Marea Neagră (zonă aproximativă)",
+    "coord": [
+     29.6,
+     43.4
+    ],
+    "precizie": "aproximativ"
+   },
+   "raport": "2026-11-09T08:19",
+   "istoric": []
+  },
+  {
+   "id": "ro-003",
+   "regiune": "România",
+   "fir": "Securitate maritimă (Marea Neagră)",
+   "data": null,
+   "titlu": "Președintele Nicușor Dan atribuie atacul Rusiei",
+   "rezumat": "Declarație politică. Atribuirea nu este confirmată ca fapt de anchetă.",
+   "domenii": [
+    "politic",
+    "militar"
+   ],
+   "criticitate": 3,
+   "veridicitate": "neconfirmat",
+   "stare": "în desfășurare",
+   "tendinta": "stabil",
+   "surse": [],
+   "notaSurse": "Din rapoarte anterioare.",
+   "loc": {
+    "tip": "punct",
+    "nume": "București",
+    "coord": [
+     26.1,
+     44.43
+    ],
+    "precizie": "exact"
+   },
+   "raport": "2026-11-09T08:19",
+   "istoric": []
+  },
+  {
+   "id": "ro-004",
+   "regiune": "România",
+   "fir": "Energie și relații regionale",
+   "data": "2026-11-08",
+   "titlu": "Linia Vulcănești–Chișinău, pusă sub tensiune",
+   "rezumat": "Linie de 400 kV, 158 km, 630 MVA, inaugurată în prezența Maiei Sandu și a eurocomisarului Marta Kos. Ocolește nodul Cuciurgan din Transnistria și acoperă peste 50% din consumul de vârf al Moldovei.",
+   "domenii": [
+    "energie",
+    "politic"
+   ],
+   "criticitate": 4,
+   "veridicitate": "confirmat",
+   "stare": "nou",
+   "tendinta": "detensionare",
+   "surse": [
+    "s3",
+    "s2",
+    "s5",
+    "s4",
+    "s6"
+   ],
+   "loc": {
+    "tip": "linie",
+    "nume": "Vulcănești–Chișinău",
+    "coord": [
+     [
+      28.4,
+      45.68
+     ],
+     [
+      28.86,
+      47.01
+     ]
+    ],
+    "precizie": "exact"
+   },
+   "raport": "2026-11-09T08:19",
+   "istoric": []
+  },
+  {
+   "id": "ro-005",
+   "regiune": "România",
+   "fir": "Energie și relații regionale",
+   "data": "2026-11-09",
+   "titlu": "Sandu: Moldova nu mai cumpără niciun metru cub de gaz rusesc",
+   "rezumat": "Declarație oficială repetată a președintei Maia Sandu, cu limbaj explicit („șantaj”, „s-a terminat”).",
+   "domenii": [
+    "energie",
+    "politic",
+    "info"
+   ],
+   "criticitate": 4,
+   "veridicitate": "confirmat",
+   "stare": "nou",
+   "tendinta": "stabil",
+   "surse": [
+    "s5",
+    "s6"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Chișinău",
+    "coord": [
+     28.86,
+     47.01
+    ],
+    "precizie": "exact"
+   },
+   "raport": "2026-11-09T08:19",
+   "istoric": []
+  },
+  {
+   "id": "ro-006",
+   "regiune": "România",
+   "fir": "Energie și relații regionale",
+   "data": "2026-11-09",
+   "titlu": "Anunțate încă două linii de transport Moldova–România",
+   "rezumat": "Anunț oficial. Calendarul și finanțarea nu sunt detaliate.",
+   "domenii": [
+    "energie",
+    "economic"
+   ],
+   "criticitate": 2,
+   "veridicitate": "partial",
+   "stare": "nou",
+   "tendinta": "stabil",
+   "surse": [
+    "s5",
+    "s6"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Granița Moldova–România (traseu neanunțat)",
+    "coord": [
+     27.85,
+     47.1
+    ],
+    "precizie": "aproximativ"
+   },
+   "raport": "2026-11-09T08:19",
+   "istoric": []
+  },
+  {
+   "id": "ro-007",
+   "regiune": "România",
+   "fir": "Energie și relații regionale",
+   "data": "2026-11-09",
+   "titlu": "Ungaria vrea să înlocuiască o parte din gazul rusesc cu gaz românesc",
+   "rezumat": "Declarație a ministrului ungar Kapitány, în contextul renunțării la energia rusă din octombrie 2027. Fără detalii de volum, preț sau calendar.",
+   "domenii": [
+    "energie",
+    "economic",
+    "politic"
+   ],
+   "criticitate": 3,
+   "veridicitate": "partial",
+   "stare": "nou",
+   "tendinta": "stabil",
+   "surse": [
+    "s1"
+   ],
+   "loc": {
+    "tip": "linie",
+    "nume": "România → Ungaria (intenție declarată)",
+    "coord": [
+     [
+      24.97,
+      45.94
+     ],
+     [
+      19.04,
+      47.5
+     ]
+    ],
+    "precizie": "aproximativ"
+   },
+   "raport": "2026-11-09T08:19",
+   "istoric": []
+  },
+  {
+   "id": "ro-008",
+   "regiune": "România",
+   "fir": "Securitate maritimă (Marea Neagră)",
+   "data": "2026-11-09",
+   "titlu": "Ancheta de la Varna: fără progrese raportate",
+   "rezumat": "Testele ADN pentru identificarea celor șase marinari sunt în curs. Originea dronelor rămâne neconfirmată.",
+   "domenii": [
+    "juridic",
+    "militar"
+   ],
+   "criticitate": 3,
+   "veridicitate": "confirmat",
+   "stare": "fără evoluție",
+   "tendinta": "stabil",
+   "surse": [],
+   "notaSurse": "Stare de situație; nicio sursă nouă în interval.",
+   "loc": {
+    "tip": "punct",
+    "nume": "Varna",
+    "coord": [
+     27.91,
+     43.21
+    ],
+    "precizie": "exact"
+   },
+   "raport": "2026-11-09T08:19",
+   "istoric": []
+  },
+  {
+   "id": "ro-009",
+   "regiune": "România",
+   "fir": "Energie și relații regionale",
+   "data": "2026-11-09",
+   "titlu": "Nicio reacție oficială de la Moscova sau Tiraspol",
+   "rezumat": "Nicio sursă pro-Kremlin nu apare în interval. Sursele ruse prezente redau faptele fără a le contesta.",
+   "domenii": [
+    "info",
+    "politic"
+   ],
+   "criticitate": 2,
+   "veridicitate": "observatie",
+   "stare": "de urmărit",
+   "tendinta": "stabil",
+   "surse": [
+    "s1",
+    "s3"
+   ],
+   "loc": {
+    "tip": "punct",
+    "nume": "Tiraspol (și Moscova, în afara hărții)",
+    "coord": [
+     29.63,
+     46.84
+    ],
+    "precizie": "exact"
+   },
+   "raport": "2026-11-09T08:19",
+   "istoric": []
+  }
+ ],
+ "regiuni": {
+  "România": {
+   "bbox": [
+    [
+     17.5,
+     41.2
+    ],
+    [
+     35.5,
+     49.6
+    ]
+   ],
+   "focus": [
+    "642",
+    "498"
+   ],
+   "etichete": [
+    [
+     "ROMÂNIA",
+     [
+      24.6,
+      45.75
+     ],
+     "tara"
+    ],
+    [
+     "MOLDOVA",
+     [
+      28.3,
+      47.85
+     ],
+     "tara"
+    ],
+    [
+     "UCRAINA",
+     [
+      31.8,
+      48.9
+     ],
+     "tara"
+    ],
+    [
+     "BULGARIA",
+     [
+      25.2,
+      42.75
+     ],
+     "tara"
+    ],
+    [
+     "UNGARIA",
+     [
+      19.6,
+      46.6
+     ],
+     "tara"
+    ],
+    [
+     "SERBIA",
+     [
+      20.8,
+      43.9
+     ],
+     "tara"
+    ],
+    [
+     "TURCIA",
+     [
+      33.2,
+      41.5
+     ],
+     "tara"
+    ],
+    [
+     "Marea Neagră",
+     [
+      33.4,
+      43.3
+     ],
+     "mare"
+    ]
+   ],
+   "repere": [
+    {
+     "nume": "Cuciurgan (nod energetic ocolit)",
+     "coord": [
+      29.92,
+      46.62
+     ]
+    }
+   ]
+  },
+  "Iran": {
+   "bbox": [
+    [
+     33,
+     22.5
+    ],
+    [
+     66,
+     41.5
+    ]
+   ],
+   "focus": [
+    "364"
+   ],
+   "etichete": [
+    [
+     "IRAN",
+     [
+      54.2,
+      32.6
+     ],
+     "tara"
+    ],
+    [
+     "IRAK",
+     [
+      43.6,
+      33.2
+     ],
+     "tara"
+    ],
+    [
+     "TURCIA",
+     [
+      37.5,
+      39.2
+     ],
+     "tara"
+    ],
+    [
+     "SIRIA",
+     [
+      38.6,
+      35.2
+     ],
+     "tara"
+    ],
+    [
+     "ARABIA SAUDITĂ",
+     [
+      44.5,
+      25.3
+     ],
+     "tara"
+    ],
+    [
+     "AFGANISTAN",
+     [
+      63.8,
+      34
+     ],
+     "tara"
+    ],
+    [
+     "PAKISTAN",
+     [
+      64.5,
+      28
+     ],
+     "tara"
+    ],
+    [
+     "TURKMENISTAN",
+     [
+      59,
+      39.6
+     ],
+     "tara"
+    ],
+    [
+     "Golful Persic",
+     [
+      50.6,
+      27.6
+     ],
+     "mare"
+    ],
+    [
+     "Marea Caspică",
+     [
+      51,
+      39.6
+     ],
+     "mare"
+    ]
+   ],
+   "repere": []
+  }
+ }
+}
